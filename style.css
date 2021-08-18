@@ -1,10 +1,11 @@
 .html{
     font-family: 'Raleway', sans-serif;
 }
-.parent{
-    display:flexbox;
-    width:500px,
+.p{
+    text-align: justify;
 }
+
+
 
 
 /*header*/
@@ -39,14 +40,14 @@
 
 .bordureSearch {
     display:inline-block;
-    width:50px;
+    width:10px;
     border-radius:10px;
 }
 
 .search{
     display:inline-block;
     height: 50px;
-    width: 240px;
+    width: 150px;
     font-size: 19px;
     color:black;
     font-weight: bold;
@@ -55,127 +56,65 @@
 .iconSize{
     display:inline-block;
     height: 50px;
-    width: 50px;
+    width: 10px;
 }
 
-
+.fas{
+    color:blue;
+}
 
 .economique{
     display:inline-block;
     border-radius:80px;
     width:150px;
-    color:blue;
+    
+    
 }
 
 .famille{
     display:inline-block;
     border-radius:80px;
     width:150px;
-    color:blue;
+    
 }
 
 .romantique{
     display:inline-block;
     border-radius:80px;
     width:150px;
-    color:blue;
+    
 }
 
 .animaux{
     display:inline-block;
     border-radius:80px;
     width:150px;
-    color:blue;
+    
 }
-
-
-.checked {
-    color:blue;
-  }
 
   /*principal*/
 
-.cannebiere{
-   
-    display:inline-block;
-    border:10px solid #000;
-    border-style:hidden;
-    border-radius:10px;
-    box-shadow:6px 6px 6px 6px black;
-    text-align:center;
-    width:50px;
-  }
-
-
-.mer{
-    
-    display:inline-block;
-    border:10px solid #000;
-    border-style:hidden;
-    border-radius:10px;
-    box-shadow:6px 6px 6px 6px black;
-    text-align:center;
-    width:50px;
-  }
-
-
-.panier{
-    
-    display:inline-block;
-    border:10px solid #000;
-    border-style:hidden;
-    border-radius:10px;
-    box-shadow:6px 6px 6px 6px black;
-    text-align:center;
-    width:50px;
+  .checked {
+    color:blue;
 }
 
-.port{
-    
-    display:inline-block;
-    border:10px solid #000;
-    border-style:hidden;
-    border-radius:10px;
-    box-shadow:6px 6px 6px 6px black;
-    text-align:center;
-    width:50px;
+#hebergement{
+    display:flex;
+    justify-content:space-between;
+    border:2px solid #444;    
 }
 
-.mouettes{
-    
+.line{
     display:inline-block;
-    border:10px solid #000;
-    border-style:hidden;
+    width:100px;
     border-radius:10px;
-    box-shadow:6px 6px 6px 6px black;
-    text-align:center;
-    width:50px;
 }
-
-.amina{
-   
-    display:inline-block;
-    border:10px solid #000;
-    border-style:hidden;
-    border-radius:10px;
-    box-shadow:6px 6px 6px 6px black;
-    text-align:center;
-    width:50px;
+.child{
+    
+    
 }
 
 /*activités*/
-
-
-.picturesactivity{
-    display:flex;
-    flex-direction:column;
-    box-shadow:2 2 10px #f2f2f2;
-    border-radius: 1rem;
-    overflow:hidden;
-    transition-duration: 0.1s;
-
-
-}
 
 /*footer*/
 

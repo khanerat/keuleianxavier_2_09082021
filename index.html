@@ -18,7 +18,7 @@
    <header>
    <section>
     
-        <a href="!">          
+        <a>          
                 <div><img class="logo" src="images/logo/Reservia.svg" alt="logoreservia"/></div>
         </a> 
           <nav>
@@ -43,8 +43,10 @@
                     
                          <div class="bordureSearch"></div>
                          <div class="iconSize"><i class="fas fa-map-marker-alt"></i></div>
-                         <div class="search"><input type="search" placeholder="Marseille , France"/></div>
-                         <span><i class="fa fa-search" aria-hidden="true"></i>Rechercher</span>
+                         <div class="search"><input class="searchinput" type="search" placeholder="Marseille , France"/></div>
+                         <button class="searchFromSubmitinput">
+                            <span class="searchFromSubmitinputText">rechercher</span>
+                         </button>
                     
           </div>
             
@@ -71,12 +73,12 @@
 
 <!--principal-->
 
-       <section class="hebergement">
+       <section>
           <div>
-           <h1 id="location">Hébergements à Marseille</h1>
+           <h2 id="location">Hébergements à Marseille</h2>
           </div>
-                   <article>
-                       <a href="!">
+                   <aside id="hebergement"><article>
+                       <div class="child">
                          <img src="images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg" alt="marcus-loke"/>
                             <h3>Auberge la cannebière</h3>
                             <p>Nuit à paritr de 25<i class="fas fa-euro-sign"></i></p>                          
@@ -86,11 +88,11 @@
                             <span class="fa fa-star checked"></span>
                             <span class="fa fa-star"></span>
                          </div>
-                        </a>  
+                        </div>  
                    </article>
 
                    <article>
-                      <a href="!">      
+                      <div class="child">      
                        <img src="images/hebergements/4_small/fred-kleber-gTbaxaVLvsg-unsplash.jpg" alt="fred-kleber"/>
                         <h3>Hôtel du port</h3>
                         <p>Nuit à partir de 52<i class="fas fa-euro-sign"></i></p>                       
@@ -100,12 +102,11 @@
                         <span class="fa fa-star checked"></span>
                         <span class="fa fa-star checked"></span>                       
                      </div>
-                     </a>
                    </article>
 
                    <article> 
-                      <a href="!">     
-                     <img src="images/hebergements/4_small/reisetopia-B8WIgxA_PFU-unsplash.jpg" alt="reisetopia">
+                      <div class="child">     
+                       <img src="images/hebergements/4_small/reisetopia-B8WIgxA_PFU-unsplash.jpg" alt="reisetopia">
                         <h3>Hôtel Les mouettes</h3>
                         <p>Nuit à partir de 76<i class="fas fa-euro-sign"></i></p>
                         <span class="fa fa-star checked"></span>
@@ -114,11 +115,10 @@
                         <span class="fa fa-star checked"></span>
                         <span class="fa fa-star"></span>
                      </div>
-                     </a>
                    </article>
 
                    <article>
-                      <a href="!">
+                      <div class="child">
                          <img src="images/hebergements/4_small/annie-spratt-Eg1qcIitAuA-unsplash.jpg" alt="annie-spratt"/>
                             <h3>Hôtel de la mer</h3>
                             <p>Nuit à partir de 46<i class="fas fa-euro-sign"></i></p>
@@ -128,11 +128,10 @@
                             <span class="fa fa-star "></span>
                             <span class="fa fa-star"></span>
                          </div>
-                         </a>
                    </article>
 
                    <article>
-                      <a href="!">      
+                      <div class="child">      
                          <img src="images/hebergements/4_small/nicate-lee-kT-ZyaiwBe0-unsplash.jpg" alt="nicate-lee"/>
                             <h3>Auberge Le Panier</h3>
                             <p>Nuit à partir de 23<i class="fas fa-euro-sign"></i></p>
@@ -142,11 +141,10 @@
                             <span class="fa fa-star checked"></span>
                             <span class="fa fa-star"></span>
                          </div>
-                         </a>
                    </article>
 
                    <article> 
-                      <a href="!"> 
+                      <div class="child"> 
                          <img src="images/hebergements/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg" alt="febrian-zakaria"/>
                             <h3>Hôtel chez Amina</h3>
                             <p>Nuit à partir de 96<i class="fas fa-euro-sign"></i></p>
@@ -156,17 +154,18 @@
                             <span class="fa fa-star checked"></span>
                             <span class="fa fa-star checked"></span>
                          </div>
-                         </a>
                    </article>
        </section>
 
-       <section class="populaire">                
+       <section id="populaire">                
                    
        
            <div>
                   <article>
-                     <a href="!">
+                     <a class="child">
+                        <div>
                          <h1>Les plus populaires</h1><i class="fas fa-chart-line"></i>
+                        </div> 
                           <img src="images/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg">
                             <h3>Hôtel Le soleil du matin</h3>
                             <p>Nuit à partir de 128<i class="fas fa-euro-sign"></i></p>
@@ -180,7 +179,7 @@
                    </article>
 
                    <article>
-                      <a href="!">
+                      <a class="child">
                      <div class="hôtes"><img src="images/hebergements/4_small/aw-creative-VGs8z60yT2c-unsplash.jpg">
                         <h3>Au coeur de l'eau Chambres d'hôtes</h3>
                         <p>Nuit à partir de 71<i class="fas fa-euro-sign"></i></p>
@@ -194,7 +193,7 @@
                    </article>
 
                    <article>
-                      <a href="!">      
+                      <a class="child">      
                          <div class="blanc"><img src="images/hebergements/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg">
                             <h3>Hôtel Tout bleu et Blanc</h3>
                             <p>Nuit à partir de 68<i class="fas fa-euro-sign"></i></p>
@@ -209,7 +208,7 @@
                          
                   
           </div>
-
+         </aside>
        </section>
 <!--principal-->
 
