@@ -1,0 +1,180 @@
+.html{
+    font-family: 'Raleway', sans-serif;
+}
+.parent{
+    display:flexbox;
+    width:500px,
+}
+
+
+
+/*header*/
+
+.logo{
+        width:200px;
+        border-left:100px;
+}
+
+
+.location{
+    display:inline-block;
+    width:400px;
+    border-radius:10px;
+}
+
+.activités{
+    display:inline-block;
+    width:500px;
+    border-radius:10px;
+}
+
+.inscription{
+    display:inline-block;
+    width:600px;
+    border-radius:10px;
+}
+
+
+
+
+.bordureSearch {
+    display:inline-block;
+    width:400px;
+    border-radius:10px;
+}
+
+.search{
+    display:inline-block;
+    height: 50px;
+    width: 240px;
+    font-size: 19px;
+    color:black;
+    font-weight: bold;
+}
+
+.iconSize{
+    display:inline-block;
+    height: 50px;
+    width: 50px;
+}
+
+/*principal*/
+
+.economique{
+    display:inline-block;
+}
+
+.famille{
+    display:inline-block;
+}
+
+.romantique{
+    display:inline-block;
+}
+
+.animaux{
+    display:inline-block;
+}
+
+
+.checked {
+    color:blue;
+  }
+
+.cannebiere{
+   
+    display:inline-block;
+    border:10px solid #000;
+    border-style:hidden;
+    border-radius:10px;
+    box-shadow:6px 6px 6px 6px black;
+    text-align:center
+  }
+
+
+.mer{
+    
+    display:inline-block;
+    border:10px solid #000;
+    border-style:hidden;
+    border-radius:10px;
+    box-shadow:6px 6px 6px 6px black;
+    text-align:center
+  }
+
+
+.panier{
+    
+    display:inline-block;
+    border:10px solid #000;
+    border-style:hidden;
+    border-radius:10px;
+    box-shadow:6px 6px 6px 6px black;
+    text-align:center;
+}
+
+.port{
+    
+    display:inline-block;
+    border:10px solid #000;
+    border-style:hidden;
+    border-radius:10px;
+    box-shadow:6px 6px 6px 6px black;
+    text-align:center;
+}
+
+.mouettes{
+    
+    display:inline-block;
+    border:10px solid #000;
+    border-style:hidden;
+    border-radius:10px;
+    box-shadow:6px 6px 6px 6px black;
+    text-align:center;
+}
+
+.amina{
+   
+    display:inline-block;
+    border:10px solid #000;
+    border-style:hidden;
+    border-radius:10px;
+    box-shadow:6px 6px 6px 6px black;
+    text-align:center;
+}
+
+
+.picturesactivity{
+    display:flex;
+    flex-direction:column;
+    box-shadow:0 0 10px #f2f2f2;
+    border-radius: 1rem;
+    overflow:hidden;
+    transition-duration: 0.1s;
+
+
+}
+
+/*footer*/
+
+.propos{
+    display:inline-block;
+    width:400px;
+    border-radius:10px;
+    text-align: left;
+}
+
+.hebergement{
+    display:inline-block;
+    width:400px;
+    border-radius:10px;
+    text-align: center;
+}
+
+.assistance{
+    display:inline-block;
+    width:400px;
+    border-radius:10px;
+    text-align: right;
+}
+
