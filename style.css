@@ -101,7 +101,10 @@
 #hebergement{
     display:flex;
     justify-content:space-between;
-    border:2px solid #444;    
+    border:2px solid #444;
+    float: left;
+    height:auto;
+        
 }
 
 .line{
@@ -110,11 +113,20 @@
     border-radius:10px;
 }
 .child{
-    
+    display:flex;
+    justify-content:space-evenly;
+    border:2px solid #444;
     
 }
 
+
 /*activités*/
+
+#activités{
+    display:flex;
+    justify-content: flex-start;
+    float:inline-start;
+}
 
 /*footer*/
 
