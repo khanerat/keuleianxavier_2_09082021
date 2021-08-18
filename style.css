@@ -7,30 +7,30 @@
 }
 
 
-
 /*header*/
 
 .logo{
         width:200px;
         border-left:100px;
+        margin-left:50px;
 }
 
 
 .location{
     display:inline-block;
-    width:400px;
+    width:100px;
     border-radius:10px;
 }
 
 .activités{
     display:inline-block;
-    width:500px;
-    border-radius:10px;
+    width:70px;
+    border-radius:5px;
 }
 
 .inscription{
     display:inline-block;
-    width:600px;
+    width:50px;
     border-radius:10px;
 }
 
@@ -39,7 +39,7 @@
 
 .bordureSearch {
     display:inline-block;
-    width:400px;
+    width:50px;
     border-radius:10px;
 }
 
@@ -58,28 +58,42 @@
     width: 50px;
 }
 
-/*principal*/
+
 
 .economique{
     display:inline-block;
+    border-radius:80px;
+    width:150px;
+    color:blue;
 }
 
 .famille{
     display:inline-block;
+    border-radius:80px;
+    width:150px;
+    color:blue;
 }
 
 .romantique{
     display:inline-block;
+    border-radius:80px;
+    width:150px;
+    color:blue;
 }
 
 .animaux{
     display:inline-block;
+    border-radius:80px;
+    width:150px;
+    color:blue;
 }
 
 
 .checked {
     color:blue;
   }
+
+  /*principal*/
 
 .cannebiere{
    
@@ -88,7 +102,8 @@
     border-style:hidden;
     border-radius:10px;
     box-shadow:6px 6px 6px 6px black;
-    text-align:center
+    text-align:center;
+    width:50px;
   }
 
 
@@ -99,7 +114,8 @@
     border-style:hidden;
     border-radius:10px;
     box-shadow:6px 6px 6px 6px black;
-    text-align:center
+    text-align:center;
+    width:50px;
   }
 
 
@@ -111,6 +127,7 @@
     border-radius:10px;
     box-shadow:6px 6px 6px 6px black;
     text-align:center;
+    width:50px;
 }
 
 .port{
@@ -121,6 +138,7 @@
     border-radius:10px;
     box-shadow:6px 6px 6px 6px black;
     text-align:center;
+    width:50px;
 }
 
 .mouettes{
@@ -131,6 +149,7 @@
     border-radius:10px;
     box-shadow:6px 6px 6px 6px black;
     text-align:center;
+    width:50px;
 }
 
 .amina{
@@ -141,13 +160,16 @@
     border-radius:10px;
     box-shadow:6px 6px 6px 6px black;
     text-align:center;
+    width:50px;
 }
+
+/*activités*/
 
 
 .picturesactivity{
     display:flex;
     flex-direction:column;
-    box-shadow:0 0 10px #f2f2f2;
+    box-shadow:2 2 10px #f2f2f2;
     border-radius: 1rem;
     overflow:hidden;
     transition-duration: 0.1s;
