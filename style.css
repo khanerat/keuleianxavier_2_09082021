@@ -8,11 +8,12 @@
     color:blue;
 }
 .nav ul{
-    list-style-type:none;
-    
+    list-style-type:none;   
 }
-
-
+.a:hover{
+    text-decoration:underline;
+    color:#0065FC;
+}
 /*header*/
 
 .logo{
@@ -31,7 +32,7 @@
 .activités{
     display:inline-block;
     width:70px;
-    border-radius:5px;
+    border-radius:10px;
 }
 
 .inscription{
@@ -81,6 +82,7 @@ cursor:pointer;
 
 #hebergement{
     display:table;
+    flex-direction:row;
     flex-wrap: wrap;
     align-content: flex-start;
     justify-content:space-between;
@@ -225,7 +227,7 @@ cursor:pointer;
 
 /*activités*/
 
-#activités{
+.sortie{
     display:inline-flex;
        
 }
