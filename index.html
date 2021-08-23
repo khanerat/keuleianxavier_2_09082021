@@ -2,13 +2,16 @@
 <html>
 <head>
 
-<!--en-tête-->
+ <!--en-tête-->
+    <meta charset="utf-8"/>
     <link rel="stylesheet" href="style.css"/>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" 
     integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" 
     crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <meta charset="utf-8"/>
+    <style>@import url('https://fonts.googleapis.com/css2? famille=Raleway:wght@100&display=swap');
+   </style>
+     
     <title>reservia</title>
 </head>
 
@@ -58,16 +61,24 @@
          <div class="filtres">        
            <h2>Filtres</h2>                            
                          <div class="economique"><i class="fas fa-money-bill-wave"></i></div>
-                         <div class="bouton_economique"><a class="a"><h3>Économique</h3></a></div> 
+                         <button class="bouton_economiqueinput">
+                            <span class="bouton_economiqueinputText"><a class="a"><h3>Économique</h3></a></span>
+                           </button> 
 
-                         <div class="famille"><i class="fas fa-child"></i></div>
-                         <div class="bouton_famille"><a class="a"><h3>Familial</h3></a></div> 
+                         <div class="famille"><i class="fas fa-child"></i></div>                       
+                         <button class="bouton_familleinput">
+                            <span class="bouton_familleinputText"><a class="a"><h3>Familial</h3></a></span>
+                         </button>
 
                          <div class="heart"><i class="fas fa-heart"></i></div>
-                         <div class="bouton_romantique"><a class="a"><h3>Romantique</h3></a></div> 
+                         <button clas="bouton_romantiqueinput">
+                            <span class="bouton_romantiqueinputText"><a class="a"><h3>Romantique</h3></a></span>
+                         </button> 
 
                          <div class="dog"><i class="fas fa-dog"></i></div>
-                         <div class="bouton_animaux"><a class="a"><h3>Animaux autorisés</h3></a></div>             
+                         <button class="bouton_animauxinput">
+                         <span class="bouton_animauxinputText"><a class="a"><h3>Animaux autorisés</h3></a></span>
+                         </button>             
          </div>
       </span>
        </section>

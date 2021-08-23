@@ -1,5 +1,7 @@
-.html{
-    font-family: 'Raleway', sans-serif;
+/*lien et surbrillance*/
+
+.body{
+    font-family: 'raleway', sans-serif;
 }
 
 .fas{
@@ -12,6 +14,7 @@
     text-decoration:underline;
     color:#0065FC;
 }
+
 /*header*/
 
 .logo{
@@ -109,23 +112,23 @@
     border-style:solid;
     border-right-color:#f2f2f2;
     border-left-color:#f2f2f2;
-    background-color:#DEEBFF;
-    width:25px;
-    height: 25px;
+    background-color:#dee0ff;
+    width:40px;
+    height: 40px;
 }
 
-.bouton_economique{
-    display:inline-block;
+.bouton_economiqueinput{
+    display:table-row;
     margin-left:0px;
+    border-top: #f2f2f2;
     border-top-right-radius: 2rem;
     border-bottom-right-radius: 2rem;
     border-top-color:#f2f2f2;
     border-bottom-color: #f2f2f2;
     border-right-color: #f2f2f2;
     background-color:#f2f2f2;
-    width: 100px;
-    height: 25px;
-    font-size:14px ;
+    cursor: pointer;
+    
     
 }
 
@@ -139,22 +142,21 @@
     border-left-color:#f2f2f2;
     background-color:#DEEBFF;
     border-style:solid;
-    width:25px;
-    height: 25px;
+    width:40px;
+    height: 40px;
 }
 
-.bouton_famille{
-    display:inline-block;
+.bouton_familleinput{
+    display:row;
     margin-left:0px;
+    border-top: #f2f2f2;
     border-top-right-radius: 2rem;
     border-bottom-right-radius: 2rem;
     border-top-color:#f2f2f2;
     border-bottom-color: #f2f2f2;
     border-right-color: #f2f2f2;
     background-color:#f2f2f2;
-    width: 100px;
-    height: 25px;
-    padding:4px;
+    cursor: pointer;
 }
 
 .heart{
@@ -167,21 +169,22 @@
     border-left-color:#f2f2f2;
     background-color:#DEEBFF;
     border-style:solid;
-    width:25px;
-    height: 25px;
+    width:40px;
+    height: 40px;
 }
 
-.bouton_romantique{
-    display:inline-block;
+.bouton_romantiqueinput{
+    display:row;
     margin-left:0px;
+    border-top: #f2f2f2;
     border-top-right-radius: 2rem;
     border-bottom-right-radius: 2rem;
     border-top-color:#f2f2f2;
     border-bottom-color: #f2f2f2;
     border-right-color: #f2f2f2;
     background-color:#f2f2f2;
-    width: 100px;
-    height: 25px;
+    cursor: pointer;
+    
 }
 
 .dog{
@@ -194,20 +197,22 @@
     border-left-color:#f2f2f2;
     background-color:#DEEBFF;
     border-style:solid;
-    width:25px;
-    height: 25px;
+    width:40px;
+    height: 40px;
 }
-.bouton_animaux{
-    display:inline-block;
+
+.bouton_animauxinput{
+    display:row;
     margin-left:0px;
+    border-top: #f2f2f2;
     border-top-right-radius: 2rem;
     border-bottom-right-radius: 2rem;
     border-top-color:#f2f2f2;
     border-bottom-color: #f2f2f2;
     border-right-color: #f2f2f2;
     background-color:#f2f2f2;
-    width: 100px;
-    height: 25px;
+    cursor: pointer;
+   
 }
 
 .logements{
@@ -248,11 +253,11 @@
 }
 
 .child1{
-    display:flex;
-    flex-direction: column;
+    display:inline-flexbox;
+    flex-direction: row;
     box-shadow:#f2f2f2;
     border-radius:2rem;
-    box-sizing: content-box;
+    box-sizing:content-box;
     overflow:hidden;
     border-color:inherit;
     padding: 5px;
@@ -261,8 +266,8 @@
       
 }
 .child2{
-    display:flex;
-    flex-direction: column;
+    display:inline-flexbox;
+    flex-direction: row;
     box-shadow:#f2f2f2;
     border-radius :2rem;
     box-sizing: content-box;
@@ -274,8 +279,8 @@
 }
 
 .child3{
-    display:flex;
-    flex-direction: column;
+    display:inline-flexbox;
+    flex-direction: row;
     box-shadow:#f2f2f2;
     border-radius:2rem;
     box-sizing: content-box;
@@ -286,8 +291,8 @@
     text-align:justify; 
 }
 .child4{
-    display:flex;
-    flex-direction: column;
+    display:inline-flexbox;
+    flex-direction: row;
     box-shadow:#f2f2f2;
     border-radius:2rem;
     box-sizing: content-box;
@@ -298,8 +303,8 @@
     text-align:justify; 
 }
 .child5{
-    display:flex;
-    flex-direction: column;
+    display:inline-flexbox;
+    flex-direction: row;
     box-shadow:#f2f2f2;
     border-radius:2rem;
     box-sizing: content-box;
@@ -310,8 +315,8 @@
     text-align:justify; 
 }
 .child6{
-    display:flex;
-    flex-direction: column;
+    display:inline-flexbox;
+    flex-direction: row;
     box-shadow:#f2f2f2;
     border-radius:2rem;
     box-sizing: content-box;
