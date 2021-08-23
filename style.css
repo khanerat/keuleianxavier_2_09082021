@@ -118,7 +118,7 @@
 }
 
 .bouton_economiqueinput{
-    display:table-row;
+    display:row;
     margin-left:0px;
     border-top: #f2f2f2;
     border-top-right-radius: 2rem;
@@ -128,6 +128,7 @@
     border-right-color: #f2f2f2;
     background-color:#f2f2f2;
     cursor: pointer;
+    font-weight: bolder;
     
     
 }
@@ -157,6 +158,7 @@
     border-right-color: #f2f2f2;
     background-color:#f2f2f2;
     cursor: pointer;
+    font-weight: bolder;
 }
 
 .heart{
@@ -184,6 +186,7 @@
     border-right-color: #f2f2f2;
     background-color:#f2f2f2;
     cursor: pointer;
+    font-weight: bolder;
     
 }
 
@@ -212,6 +215,7 @@
     border-right-color: #f2f2f2;
     background-color:#f2f2f2;
     cursor: pointer;
+    font-weight: bolder;
    
 }
 
@@ -247,14 +251,14 @@
     border-color:#f2f2f2;
     box-shadow:#f2f2f2;
     box-sizing:content-box;
-    width: 40%;
+    max-width: 1700px;
 
         
 }
 
 .child1{
-    display:inline-flexbox;
-    flex-direction: row;
+    display:flex;
+    flex-direction:column;
     box-shadow:#f2f2f2;
     border-radius:2rem;
     box-sizing:content-box;
@@ -266,8 +270,8 @@
       
 }
 .child2{
-    display:inline-flexbox;
-    flex-direction: row;
+    display:flex;
+    flex-direction: column;
     box-shadow:#f2f2f2;
     border-radius :2rem;
     box-sizing: content-box;
@@ -279,8 +283,8 @@
 }
 
 .child3{
-    display:inline-flexbox;
-    flex-direction: row;
+    display:flex;
+    flex-direction: column;
     box-shadow:#f2f2f2;
     border-radius:2rem;
     box-sizing: content-box;
@@ -291,8 +295,8 @@
     text-align:justify; 
 }
 .child4{
-    display:inline-flexbox;
-    flex-direction: row;
+    display:flex;
+    flex-direction: column;
     box-shadow:#f2f2f2;
     border-radius:2rem;
     box-sizing: content-box;
@@ -303,8 +307,8 @@
     text-align:justify; 
 }
 .child5{
-    display:inline-flexbox;
-    flex-direction: row;
+    display:flex;
+    flex-direction: column;
     box-shadow:#f2f2f2;
     border-radius:2rem;
     box-sizing: content-box;
@@ -315,8 +319,8 @@
     text-align:justify; 
 }
 .child6{
-    display:inline-flexbox;
-    flex-direction: row;
+    display:flex;
+    flex-direction: column;
     box-shadow:#f2f2f2;
     border-radius:2rem;
     box-sizing: content-box;
@@ -333,7 +337,8 @@
     border:2px solid #f2f2f2;
     float: left;
     height:auto;
-    margin-left: 100px;
+    margin-left: 500px;
+    margin-right: auto;
     border-radius:2rem;
 }
 
