@@ -259,8 +259,15 @@
     line-height:50%;
 }
 
+    
+
+
 #hebergement{
     grid-template-columns: 70px 50px;
+    row-gap: 3rem;
+    column-gap: 3rem;
+    
+}
     /*
     display:inline-block;
     flex-direction:row;
@@ -278,10 +285,11 @@
     
 */
         
-}
+
 .child_text{
     display:flex;
     flex-direction:column;
+    text-decoration-color:black
 }
 .child_stars{
     display:flex;
@@ -304,8 +312,10 @@
 
 
 #populaires{
+    margin-left:50px;
+    max-width:1400px;
+    line-height:50%;
 /*
-
     display:inline-block;
     flex:wrap;
     justify-content:space-between;
@@ -331,12 +341,18 @@
 }
 
 .picturesactivity{
+    display:grid;
+    row-gap: 3rem;
+    column-gap: 3rem;
+    
+    /*
     display:inline-flex;
     margin-block:5px;
     border-image-width: 1rem;
     float:inline-start;
     margin: 1rem 2rem 1rem 0;
     border-radius:2rem;
+    */
 }
 
 .child10{
