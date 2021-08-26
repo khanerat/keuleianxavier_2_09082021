@@ -257,6 +257,7 @@
     margin-left:50px;
     max-width:1400px;
     line-height:50%;
+    float:left;
 }
 
     
@@ -265,7 +266,11 @@
 #hebergement{
     grid-template-columns: 70px 50px;
     row-gap: 3rem;
-    column-gap: 3rem;
+    column-gap: 0.5rem;
+    border-radius:2rem;
+    display:flex;
+    flex-direction:row;
+    text-align:justify;
     
 }
     /*
@@ -285,7 +290,11 @@
     
 */
         
-
+.image{
+    border-radius:2rem;
+    
+    
+}
 .child_text{
     display:flex;
     flex-direction:column;
@@ -298,15 +307,9 @@
 
 .child1{
     display:flex;
-    grid-template-columns: 60px 60px;
-    flex-direction:column;
     box-shadow:#f2f2f2;
-    border-top-left-radius: 2rem;
-    border-top-right-radius: 2rem;
-    overflow: hidden;
     border-color:inherit;
-    padding: 5px;
-    width: 25%; 
+    width: 100%; 
     text-align:justify;
 }
 
