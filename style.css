@@ -7,12 +7,14 @@
 .fas{
     color:blue;
 }
-.nav ul{
-    list-style-type:none;   
+nav ul{
+    list-style-type:none;
+      
 }
 
-.nav li{
+nav li{
     list-style-type:none;
+    
 }
 
 .a:hover{
@@ -255,22 +257,20 @@
 
 #location{
     margin-left:50px;
-    max-width:1400px;
-    line-height:50%;
-    float:left;
+    grid-template-columns: 70px 50px;
+    display:grid;
+    column-gap: 3rem;
+    row-gap: 3rem;
+    background-color:#f2f2f2;
+    border-radius:2rem;
+    padding:2rem;
 }
 
+.hebergement{
+    grid-template-column:repeat(3,1 fr);
+
     
-
-
-#hebergement{
-    grid-template-columns: 70px 50px;
-    row-gap: 3rem;
-    column-gap: 0.5rem;
-    border-radius:2rem;
-    display:flex;
-    flex-direction:row;
-    text-align:justify;
+    
     
 }
     /*
@@ -289,9 +289,19 @@
     float:left;
     
 */
+.child1{
+   
+    display:inline-block;
+    box-shadow:#f2f2f2;
+    border-color:inherit;
+    width: 100%; 
+    text-align: justify;
+    
+}
         
 .image{
-    border-radius:2rem;
+    border-style:none;
+
     
     
 }
@@ -305,19 +315,16 @@
     align-items:flex-start;
 }
 
-.child1{
-    display:flex;
-    box-shadow:#f2f2f2;
-    border-color:inherit;
-    width: 100%; 
-    text-align:justify;
-}
+/*populaire*/
 
+.populaires{
+    margin-right: 50px;
+    float:right;
+    display: grid;
+    row-gap: 2rem;
+    align-items: start;
+    grid-template-rows: auto repeat(3, 1fr);  
 
-#populaires{
-    margin-left:50px;
-    max-width:1400px;
-    line-height:50%;
 /*
     display:inline-block;
     flex:wrap;
@@ -355,7 +362,7 @@
     float:inline-start;
     margin: 1rem 2rem 1rem 0;
     border-radius:2rem;
-    */
+    
 }
 
 .child10{
@@ -423,29 +430,28 @@
     padding: 5px;
     width: 20%; 
 }
+*/
 
 /*footer*/
+
 
 .propos{
     display:inline-block;
     width:400px;
-    border-radius:10px;
-    text-align: left;
-    list-style-type:none;
+    text-align:left;
+    
 }
 
-.hebergement{
+.charte{
     display:inline-block;
     width:400px;
-    border-radius:10px;
-    text-align: center;
-    list-style-type:none;
+    text-align: left;
+    
 }
 
 .assistance{
     display:inline-block;
     width:400px;
-    border-radius:10px;
-    text-align: right;
-    list-style-type:none;
+    text-align: left;
+    
 }
