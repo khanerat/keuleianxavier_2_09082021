@@ -4,12 +4,14 @@
 
  <!--en-tête-->
     <meta charset="utf-8"/>
+    <meta name="viewport" content="width-device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css"/>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" 
     integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" 
     crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <style>@import url('https://fonts.googleapis.com/css2? famille=Raleway:wght@100&display=swap');</style>
+    <link rel="stylssheet" href="style/flexboxgrid-6.3.1/css/flexboxgrid-.css" type="text/css">
+    
     
      <title>reservia</title>
 
@@ -17,45 +19,53 @@
 </head>
 
 <body>
+   <main>
 
 <!--header-->
    <header>
-            <div class="header">
-                <div>
-                   <img class="logo" src="images/logo/Reservia.svg" alt="logoreservia"/>
-                </div> 
+           
+                <div id="logo">
+                   <img  src="images/logo/Reservia.svg" alt="logoreservia"/>
+                </div>
           <nav>
-             <ul>
-                <li class="location"><a class="a" href="#location">Hébergements</a></li>
-                <li class="activités"><a class="a" href="#activités">Activités</a></li>
-                <li class="inscription"><a class="a" href="inscription">S'inscrire</a></li>
-             </ul>    
-         </nav>
-        </div> 
+                <div class="header">                
+                   <a class="header_HA"  href="#location">Hébergements</a>
+                   <a class="header_HA" href="#activités">Activités</a>
+                </div>
+                   <a class="inscription" href="#inscription">S'inscrire</a> 
+               </nav> 
    </header>
 
-<!--header-->
-
-
-<!--recherche-->   
-        <section>
+<!--titre-->   
+        
            
             <div class="tête">
-              <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
-              <p>En plein centre ville ou en pleine nature</p>          
-            <div>
-                    
-            <div class="bordureSearch"></div>
-                         <div class="iconSize"><i id="marker" class="fas fa-map-marker-alt"></i></div>
-                         <div class="search"><input class="searchinput" type="search" placeholder="Marseille , France"/></div>
+               <div class="principal">
+                  <div class="trouver">               
+                     <h1>Trouvez votre hébergement pour des vacances de rêve</h1> 
+                  </div>
+                  <div class="centre">
+                     <p>En plein centre ville ou en pleine nature</p>          
+                  </div>
+                </div>  
+
+
+<!--recherche-->               
+         <div id="search">  
+            <div class="bordureSearch">
+               <div class="iconSize">
+                  <i id="marker" class="fas fa-map-marker-alt"></i>
+                </div>                   
+                     <input class="searchinput" type="search" placeholder="Marseille , France" name="recherche"/>
                          <button class="searchFromSubmitinput">
+                            <i class="fas fa-search"></i>
                             <span  href="rechercher" class="searchFromSubmitinputText">rechercher</span>
                          </button>
-                    
-          </div>
-            
-        </section>
-  
+                </div>        
+             </div>
+         </div>    
+        
+<!--filtres-->  
 
         <section>
            <span>
@@ -88,10 +98,10 @@
                          <div class="logements"><i class="fas fa-info-circle"></i>Plus de 500 logements sont disponibles dans cette ville</div>
        </section>
        <br/>
-<!--recherche-->
 
 
-<!--principal-->
+
+<!--hebergement-->
        <br/>
        <section id="location">
           <div class="hebergement">
@@ -227,7 +237,7 @@
                   </div>
                 </div>
                
-                  
+ <!--populaires-->                 
                <aside class="populaires"> 
                                                                           
                         <div>
@@ -290,7 +300,7 @@
                        </article> 
                   </aside>
                </section>
-<!--principal-->
+
 
 
 <!--activités-->
@@ -349,8 +359,7 @@
                          </a>
                     </aside>
        </section>
-<!--activités-->
-
+   </main>
 
 <!--footer-->       
     <footer class="footer">
@@ -387,7 +396,7 @@
          </div>
 
     </footer>
-<!--footer-->
+
 
 </body>
 
