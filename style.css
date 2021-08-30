@@ -151,29 +151,19 @@ header nav{
 }
 
 .iconSize{
-    position:inherit;
+    position:relative;
     height: 40px;
-    width: 45px;
+    width: 50px;
     border-top-left-radius:2rem;
     border-bottom-left-radius:2rem;
     background-color:#f2f2f2;
 }
-#marker{
+.fa-map-marker-alt{
     color:black;
     top: 50%;
     left: 50%;
-    position:absolute
-    transform : translate(-50%, -50%);
-}
-
-.searchfromSubmitinputText{
-    padding-left: 10px;
-    font-size: 1em;
-    font-weight: bold;
-    border-right: none;
-    border-left: none;
-    border-top: #F2F2F2 1px solid;
-    border-bottom: #F2F2F2 1px solid;
+    position:absolute;
+    transform: translate(-50%, -50%);
 }
 .searchinput{
     
@@ -187,7 +177,7 @@ header nav{
 }
 
 .searchFromSubmitinput{
-    width: 45px;
+    width: 40px;
     height: 40px;
     border:none;
     border-top-right-radius:2rem;
@@ -199,10 +189,15 @@ header nav{
 
 }
 
-
-
-
-
+.searchfromSubmitinputText{
+    padding-left: 10px;
+    font-size: 1em;
+    font-weight: bold;
+    border-right: none;
+    border-left: none;
+    border-top: #F2F2F2 1px solid;
+    border-bottom: #F2F2F2 1px solid;
+}
 
 
 
