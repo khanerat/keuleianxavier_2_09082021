@@ -1,4 +1,4 @@
-/*lien et surbrillance*/
+/*police*/
 @font-face{
     font-family: "Raleway";
     src: url("../static/Raleway-Medium.ttf");
@@ -174,6 +174,8 @@ header nav{
     border: none;
     color: white;
     outline: none;
+    cursor:text;
+    overflow: visible;
 }
 
 .searchFromSubmitinput{
@@ -184,7 +186,6 @@ header nav{
     border-bottom-right-radius: 2rem;
     background-color: blue;
     color: white;
-    cursor:pointer;
     outline:none;
 
 }
@@ -209,12 +210,34 @@ header nav{
     margin:4rem 2rem 4rem 2rem;
     display: flex;
     align-items: center;
-    cursor:pointer;  
+      
 }
 
 .section_filtres{
     display:flex;
     flex-wrap:wrap;
+}
+
+.bouton{
+    display:flex; 
+    align-items:center;
+    margin-left: 80px;; 
+    justify-content:center;
+    border-radius:2rem;
+    border-top-color:#f2f2f2;
+    border-bottom-color:#f2f2f2;
+    border-right-color:#f2f2f2;
+    border-left-color:#f2f2f2;
+    background-color:#DEEBFF;
+    border-style:solid;
+    width:100px;
+    height: 50px;
+    
+}
+
+.bouton:hover{
+    text-decoration: underline;
+    color: #0065FC;
 }
 
 .bouton_input_filtres{
@@ -230,27 +253,6 @@ header nav{
     background-color:#deebff;
     cursor: pointer;
     font-weight: bolder;  
-}
-
-.bouton{
-    display:flex; 
-    align-items: center; 
-    margin-left:100px;
-    justify-content: center;
-    border-radius:2rem;
-    border-top-color:#f2f2f2;
-    border-bottom-color:#f2f2f2;
-    border-right-color:#f2f2f2;
-    border-left-color:#f2f2f2;
-    background-color:#DEEBFF;
-    border-style:solid;
-    width:50px;
-    height: 50px;
-}
-
-.bouton:hover{
-    text-decoration: underline;
-    color: #0065FC;
 }
 
 .logements{
