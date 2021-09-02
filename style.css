@@ -1,23 +1,25 @@
 /*police*/
+
 @font-face{
     font-family: "Raleway";
-    src: url("../static/Raleway-Medium.ttf");
+    src: url("Raleway/static/Raleway-Medium.ttf");
   }
   
   @font-face{
     font-family: "Raleway-Thin";
-    src: url("../static/Raleway-Thin.ttf");
+    src: url("Raleway/static/Raleway-Thin.ttf");
   }
   
   @font-face{
     font-family: "Raleway-Bold";
-    src: url("../static/Raleway-Bold.ttf");
+    src: url("Raleway/static/Raleway-Bold.ttf");
   }
   
   * {
     font-family: "Raleway";
   }
 
+/*main*/
 
   main{
     display: block;
@@ -218,6 +220,11 @@ p{
     flex-wrap:wrap;
 }
 
+.bouton_recherche{
+    align-items: center;
+    text-align: center;
+}
+
 .bouton{
     display:flex; 
     align-items:center;
@@ -274,6 +281,7 @@ p{
     display:flex;
     flex-wrap: wrap;
     flex-direction: row;
+    align-content: space-between;
     justify-content: space-between;
     column-gap: 2rem;
     row-gap: 2rem;
@@ -289,20 +297,22 @@ p{
 
 #hebergement{
     display:inline-flex;
-    flex-direction: column;
+    flex-direction: row;
+    flex-wrap: wrap;   
     align-content: space-between;
-    justify-content: space-between;
-    column-gap: 20px;
-    row-gap: 20px;
+    justify-content: space-around;
+    column-gap: 15px;
+    row-gap: 15px;
     background-color: #F2F2F2;
     border-radius: 15px;
     padding: 20px 20px 20px 20px;
+    max-width: 950px;
 }
 
 .child1{
     display:flex;
     flex-direction: row;
-    flex-wrap: wrap;
+    flex-wrap:wrap;
     align-content: space-between;
     justify-content: space-between;
     background-color: white;
@@ -334,13 +344,6 @@ p{
     object-fit: cover;
     border-top-left-radius: 25px;
     border-top-right-radius: 25px;
-    /*
-    object-fit: cover;
-    margin-block-start: 1px;
-    margin-block-end: 1px;
-    margin-inline-start: 40px;
-    margin-inline-end: 40px; 
-    */ 
 }
 
 .contenu_hebergement{
@@ -412,12 +415,6 @@ p{
     object-fit: cover;
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
-   /*
-    margin-block-start: 1px;
-    margin-block-end: 1px;
-    margin-inline-start: 40px;
-    margin-inline-end: 40px;
-    */
 }
 
 .contenu_populaires{
@@ -450,29 +447,26 @@ p{
 /*activités*/
 
 #activités{
-    display:block;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-bottom: 60px;
+    max-width: 1500px;
 }
 
 .sotie{
-    display:flex;
-    justify-content: space-between;
-    
+    margin-bottom: 20px;
+    font-size: large;
+    font-weight: bold; 
 }
 
 .titre_activités{
-    font-size: medium;
     display:flex;
-    margin-top:20px;
-    margin-bottom: 10px;
-    /*
-    display: block;
-    font-size: 19px;
-    margin-block-start: 10px;
-    margin-block-end: 10px;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    font-weight: bold;
-    */
+    flex-direction:row;
+    flex-wrap:wrap;
+    justify-content: space-between;
+    max-width:1200px;
 }
 
 .sortie_activités{
@@ -486,46 +480,51 @@ p{
 
 .picturesactivity{
     display:grid;
-    row-gap: 3rem;
-    column-gap: 3rem;
+    row-gap: 52px;
+    column-gap: 52px;
 }
 
-.image_activity{
-    background-size: 100% 100%;
+.image_activity_port
+.image_activity_pomègues
+.image_activity_frioul
+.image_activity_calanques
+.image_activity_garde
+.image_activity_longchamp{
+    background-size: 30% 30%;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
     padding: 0px 0px 22px 0px;
+    width: 400px;
+    height: 500px;
 }
+
 .pictures_commun_1{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
 
-.activity1{
-
-}
-
-.activity2{
-
-}
-
-.activity3{
-
-}
-
- .activity4{
-    
-} 
-
-.activity5{
-    
-}
-
+.activity1
+.activity2
+.activity3
+.activity4
+.activity5
 .activity6{
-    
+    border-radius: 20px;
+    margin: 0px 0px 20px 0px;
+    box-shadow: 0 0 10px black;
+    padding: 0px 0px 20px 0px;
 }
 
+.nom_photo1
+.nom_photo2
+.nom_photo3
+.nom_photo4
+.nom_photo5
+.nom_photo6{
+    display:flex;
+}
+    
 /*footer*/
 
 footer{
