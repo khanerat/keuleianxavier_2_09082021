@@ -158,16 +158,8 @@ p{
     width: 54px;
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
-
-    /*
-    position:relative;
-    height: 40px;
-    width: 50px;
-    border-top-left-radius:12px;
-    border-bottom-left-radius:12px;
-    background-color:#f2f2f2;
-    */
 }
+
 .fa-map-marker-alt{
     position: absolute;
     color: black;
@@ -283,8 +275,8 @@ p{
     flex-direction: row;
     align-content: space-between;
     justify-content: space-between;
-    column-gap: 2rem;
-    row-gap: 2rem;
+    column-gap: 40px;
+    row-gap: 40px;
      
 }
 
@@ -301,10 +293,10 @@ p{
     flex-wrap: wrap;   
     align-content: space-between;
     justify-content: space-around;
-    column-gap: 15px;
-    row-gap: 15px;
+    column-gap: 20px;
+    row-gap: 20px;
     background-color: #F2F2F2;
-    border-radius: 15px;
+    border-radius: 20px;
     padding: 20px 20px 20px 20px;
     max-width: 950px;
 }
@@ -317,12 +309,12 @@ p{
     justify-content: space-between;
     background-color: white;
     padding: 4px;
-    border-radius: 15px;
+    border-radius: 20px;
     box-shadow: 0 0 16px #0000002e;
     transition-duration: 0.1s;
     cursor: pointer;
     box-sizing: border-box;
-    height: 20%;
+    height: 25%;
     
 }
 
@@ -331,8 +323,8 @@ p{
     border-radius: 20px;
     padding: 2px 2px 2px 2px;
     background-color: white;
-    max-width:236px;
-    margin-bottom: 28px;
+    max-width:270px;
+    margin-bottom: 50px;
     box-shadow: 0 0 20px black;
     cursor:pointer;
 }
@@ -375,7 +367,7 @@ p{
     margin-right: 50px;
     display: flex;
     flex-direction: column;
-    row-gap: 2rem;
+    row-gap: 35px;
     align-items: start; 
 }
 
@@ -388,19 +380,19 @@ p{
 
 .child2{
     background-color: white;
-    padding: 4px;
-    border-radius: 15px;
+    padding: 7px;
+    border-radius: 20px;
     box-shadow: 0 0 16px black;
     transition-duration: 0.1s;
     cursor: pointer;
     box-sizing: border-box;
-    height: 20%; 
+    height: 22%; 
 }
 
 .box_populaires{
     border: 3px solid white;
     border-radius: 20px;
-    padding: 2px 2px 2px 2px;
+    padding: 10px 10px 10px 10px;
     background-color: white;
     max-width:200px;
     margin-bottom: 28px;
@@ -415,6 +407,7 @@ p{
     object-fit: cover;
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
+    float:left;
 }
 
 .contenu_populaires{
@@ -455,7 +448,7 @@ p{
     max-width: 1500px;
 }
 
-.sotie{
+.sortie{
     margin-bottom: 20px;
     font-size: large;
     font-weight: bold; 
@@ -484,6 +477,18 @@ p{
     column-gap: 52px;
 }
 
+.activity1
+.activity2
+.activity3
+.activity4
+.activity5
+.activity6{
+    border-radius: 20px;
+    margin: 0px 0px 20px 0px;
+    box-shadow: 0 0 10px black;
+    padding: 0px 0px 20px 0px;
+}
+
 .image_activity_port
 .image_activity_pomègues
 .image_activity_frioul
@@ -498,24 +503,6 @@ p{
     height: 500px;
 }
 
-.pictures_commun_1{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-}
-
-.activity1
-.activity2
-.activity3
-.activity4
-.activity5
-.activity6{
-    border-radius: 20px;
-    margin: 0px 0px 20px 0px;
-    box-shadow: 0 0 10px black;
-    padding: 0px 0px 20px 0px;
-}
-
 .nom_photo1
 .nom_photo2
 .nom_photo3
@@ -524,6 +511,16 @@ p{
 .nom_photo6{
     display:flex;
 }
+
+.pictures_commun_1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+
+
     
 /*footer*/
 
