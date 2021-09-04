@@ -448,68 +448,19 @@ p{
     max-width: 1500px;
 }
 
-.sortie{
+.titre_activités{
     margin-bottom: 20px;
     font-size: large;
-    font-weight: bold; 
-}
-
-.titre_activités{
-    display:flex;
-    flex-direction:row;
-    flex-wrap:wrap;
-    justify-content: space-between;
-    max-width:1200px;
+    font-weight: bold;
 }
 
 .sortie_activités{
-    display:flex;
-    flex-direction:row;
-    justify-content: space-around;
-    max-width:1550px;
-    flex-wrap:wrap;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1280px;
        
-}
-
-.picturesactivity{
-    display:grid;
-    row-gap: 52px;
-    column-gap: 52px;
-}
-
-.activity1
-.activity2
-.activity3
-.activity4
-.activity5
-.activity6{
-    border-radius: 20px;
-    margin: 0px 0px 20px 0px;
-    box-shadow: 0 0 10px black;
-    padding: 0px 0px 20px 0px;
-}
-
-.image_activity_port
-.image_activity_pomègues
-.image_activity_frioul
-.image_activity_calanques
-.image_activity_garde
-.image_activity_longchamp{
-    background-size: 30% 30%;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-    padding: 0px 0px 22px 0px;
-    width: 400px;
-    height: 500px;
-}
-
-.nom_photo1
-.nom_photo2
-.nom_photo3
-.nom_photo4
-.nom_photo5
-.nom_photo6{
-    display:flex;
 }
 
 .pictures_commun_1{
@@ -518,6 +469,56 @@ p{
     justify-content: space-between;
 }
 
+.picturesactivity{
+    box-shadow: 0 0 10px #0000002e;
+    padding: 0px 0px 20px 0px;
+    border-radius: 20px;
+    margin: 0px 0px 20px 0px;
+}
+
+.activity1
+.activity2
+.activity3
+.activity4
+.activity5
+.activity6{
+    background-size: 100% 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding: 0px 0px 22px 0px;
+}
+
+.image_activity_port
+.image_activity_pomègues
+.image_activity_frioul
+.image_activity_calanques
+.image_activity_garde
+.image_activity_longchamp{
+    object-fit: cover;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.nom_photo1
+.nom_photo2
+.nom_photo3
+.nom_photo4
+.nom_photo5
+.nom_photo6{
+    margin-left: 20px;
+}
+
+#activités h1 {
+    font-size: large;
+}
+
+#activités h2 {
+    font-size: 1rem;
+}
+
+footer h2 {
+    font-size: 1.5rem;
+}
 
 
 
@@ -562,3 +563,17 @@ footer li:hover{
     text-decoration: underline;
     cursor: pointer;
 }
+
+
+/*telephone /tablette*/
+
+@media screen and (min-width : 1300px) and (max-width : 2500px)
+
+
+@media (max-width: 899px)
+
+
+@media screen and (min-width: 899px) and (max-width: 1370px)
+
+
+@media screen and (max-width:  500px)
