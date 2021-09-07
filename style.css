@@ -23,7 +23,7 @@
 
   main{
     display: block;
-    max-width: 1600px;
+    max-width: 1400px;
     margin: auto;
     padding: 0 30px;
     box-sizing: border-box;
@@ -474,7 +474,8 @@ h3{
     flex-direction: column;
     flex-wrap: wrap;
     margin-bottom: 60px;
-    max-width: 1600px;   
+    max-width: 1400px;  
+    width:100%; 
 }
 
 
