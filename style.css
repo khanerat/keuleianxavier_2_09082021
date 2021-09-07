@@ -656,7 +656,7 @@ footer li:hover{
     header nav a {
         flex-direction: column;
         margin-left: 0px; 
-        font-size: 2rem;
+        font-size: 30px;
    }
 
    #filtres{
@@ -682,12 +682,12 @@ footer li:hover{
 
    .hebergement_activites {
        width: 185%;
-       margin-top: 2rem;
+       margin-top: 30px;
    }
 
    #populaires{
          order: 1;
-         margin-right: 1em;
+         margin-right: 17px;
          width: 100%;
    }
    #hebergement{
