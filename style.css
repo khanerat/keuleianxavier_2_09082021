@@ -106,7 +106,7 @@ header nav{
     justify-content: center;
 }
 
-.tête{
+.tete{
     display:flex;
     flex-direction:column;
     flex-wrap: wrap;
@@ -282,7 +282,7 @@ h3{
 
 /********hebergement*************/
 
-#sign{
+.fa-euro-sign{
     color:black;
 }
 
@@ -385,24 +385,12 @@ h3{
 .plus{
     font-weight: bold;
     display:flex;
-    flex-direction: column;
+    flex-direction:column;
+    justify-content: flex-start;
   
 }
 
 /*********populaire************/
-
-.titre_populaires{
-    font-size: large;
-    margin-bottom: 25px;
-    display: flex;
-    flex-direction:row;
-    justify-content: space-between; 
-}
-
-
-.fa-chart-line{
-    color:black;   
-}
 
 #populaires{
     background-color: #f2f2f2;
@@ -417,11 +405,22 @@ h3{
     float:right; 
 }
 
+.titre_populaires{
+    font-size: large;
+    margin-bottom: 25px;
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between; 
+}
+
+
+.fa-chart-line{
+    color:black;   
+}
+
 .block_populaires{
     display: flex;
-    flex-direction:column;
-    
-    
+    flex-direction:column;  
 }
 
 .box_populaires{
@@ -469,7 +468,7 @@ h3{
 
 /**********activités************/
 
-#activités{
+#activites{
     background-color: white;
     display: flex;
     flex-direction: column;
@@ -480,7 +479,7 @@ h3{
 
 
 
-.titre_activités{
+.titre_activites_marseille{
     margin-bottom: 20px;
     font-size: large;
     font-weight: bold;   
@@ -488,7 +487,7 @@ h3{
 
 
 
-.sortie_activités{
+.sortie_activites{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -535,7 +534,7 @@ h3{
 
 
 .image_activity_port,
-.image_activity_pomègues,
+.image_activity_pomegues,
 .image_activity_frioul,
 .image_activity_calanques,
 .image_activity_garde,
@@ -556,12 +555,12 @@ h3{
 }
 
 
-#activités h1 {
+#activites h1 {
     font-size: large;  
 }
 
 
-#activités h2 {
+#activites h2 {
     font-size: 14px;  
 }
 
@@ -632,29 +631,32 @@ footer li:hover{
 
 
 @media screen and (max-width:  500px) {
+
+    header{
+      
+        flex-direction:column;
+        
     
-  
-.sortie_activités{
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    max-width: 1280px;     
-}
-footer {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    background-color: #f2f2f2;
-    padding: 20px;
-    padding-left: 40px;
-    padding-bottom: 20px;
-}
- .propos,
-    .charte,
-    .assistance{
-        padding-bottom: 30px;
-        align-items: center;
+    }
+
+    .container{
+       
+        flex-direction: column;
+          
     }
     
+  
+    .sortie_activites{
+       
+       flex-direction: column;
+            
+   }
+
+    footer {
+       
+       flex-direction: column;
+      
+    }
+   
+ 
 }
