@@ -617,7 +617,7 @@ footer ul {
   
 footer li{
     list-style-type: none;
-    margin-bottom: 13px;
+    margin-bottom: 10px;
 }
   
 footer div {
@@ -632,7 +632,7 @@ footer li:hover{
 /************telephone /tablette**************/
 
 
-@media screen and (min-width:  800px) and (max-width: 1390px){
+@media screen and (max-width:  375px){
 
     main {
         width: 160%;
@@ -659,6 +659,11 @@ footer li:hover{
         font-size: 2rem;
    }
 
+   #filtres{
+       flex-direction: column;
+       height: auto;
+   }
+
     .container{
        
         flex-direction: column;
@@ -675,7 +680,7 @@ footer li:hover{
             
    }
 
-   .hebergements_activites {
+   .hebergement_activites {
        width: 185%;
        margin-top: 2rem;
    }
@@ -685,15 +690,10 @@ footer li:hover{
          margin-right: 1em;
          width: 100%;
    }
-   #hebergements_a_marseille{
+   #hebergement{
         order: 2;
         align-items: center;
   }
-
-   .hebergements {
-       width: 185%;
-       margin-top: 2rem;
-   }
 
     footer {
        
