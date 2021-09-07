@@ -376,10 +376,10 @@ h3{
     padding-bottom: 0px;  
 }
 
-.child_text1 h3
-.child_text2 h3{
+.child_text h3{
     font-weight: bold;
-    font-style: normal;
+    font-size:15px;
+    
 }
 
 .plus{
@@ -452,8 +452,8 @@ h3{
     flex-direction: column;   
 }
 
-.child2_text{
-    padding-bottom: 10px;   
+.child_text{
+    padding-bottom: 5px;   
 }
 
 .prix_populaires{
@@ -556,13 +556,14 @@ h3{
 }
 
 
-#activites h1 {
-    font-size: large;  
+#activites h3 {
+    font-size: medium; 
+    font-weight: bold; 
 }
 
 
 #activites h2 {
-    font-size: 14px;  
+    font-size: 19px;  
 }
 
 .picture {
