@@ -97,6 +97,8 @@ header nav{
 }
 
 
+
+
 /****************titre*************/
 
 .navigation{
@@ -128,7 +130,8 @@ header nav{
 }
 
 h1{
-    font-size:large;
+    font-size:30px;
+    font-weight: bold;
 }
 
 p{
@@ -206,6 +209,11 @@ p{
     font-weight: bold; 
 }
 
+.section_filtres p{
+    font-weight:bold;
+    font-size:22px;
+}
+
 .bouton{
     display: flex;
     flex-wrap: wrap;   
@@ -218,7 +226,7 @@ p{
     border: 2px solid #d9d9d9;
     padding: 0px 25px 0px 65px;
     border-radius: 25px;
-    font-weight: bold;
+    font-weight: bold;    
 }
 
 
@@ -251,7 +259,7 @@ p{
 
 .info_logo{
     display: flex;
-    color: #0065fc;
+    color: #0065FC;
     padding: 6px;
     padding-left: 11px;
     padding-right: 11px;
@@ -271,14 +279,15 @@ p{
 .fa-heart,
 .fa-dog{
     color: #0065FC;
-    font-size: 1em;
+    font-size: 16PX;
 }
 
-h3{
-    font-size: small;
-    
+ h3{
+    font-size: large;  
     font-weight: normal;
 }
+
+ 
 
 /********hebergement*************/
 
@@ -324,7 +333,7 @@ h3{
 
 .marseille{
     margin: 0px;
-    font-size: large;
+    font-size: 22px;
     margin-bottom: 20px; 
 }
 
@@ -378,7 +387,7 @@ h3{
 
 .child_text h3{
     font-weight: bold;
-    font-size:15px;
+    font-size:20px;
     
 }
 
@@ -482,7 +491,7 @@ h3{
 
 .titre_activites_marseille{
     margin-bottom: 20px;
-    font-size: large;
+    font-size: 22px;
     font-weight: bold;   
 }
 
@@ -557,7 +566,7 @@ h3{
 
 
 #activites h3 {
-    font-size: medium; 
+    font-size: 20px; 
     font-weight: bold; 
 }
 
@@ -690,6 +699,7 @@ footer li:hover{
          margin-right: 17px;
          width: 100%;
    }
+
    #hebergement{
         order: 2;
         align-items: center;
