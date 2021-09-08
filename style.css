@@ -1,4 +1,4 @@
-/**********police***********/
+/*****police*****/
 
 @font-face{
     font-family: "Raleway";
@@ -642,9 +642,112 @@ footer li:hover{
 
 
 @media screen and (max-width:  375px){
-
     main {
         width: 160%;
+    }
+
+    header{
+        flex-direction:column;
+        display:flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        margin-bottom: 25px;
+        padding-top: 2px;
+        padding-left: 2px;
+        padding-right: 0px;
+        width: 50%;
+    }
+    
+
+    .header_HA{ 
+        width: 50%;
+        padding: 20PX;
+    }
+
+    .inscription{
+        top: 2px;
+    }
+
+    .trouver{
+        width:50%;
+
+    }
+
+    #filtres{
+        margin-left: 0px;
+        flex-direction: column;
+        height: auto;
+    }
+
+    .section_filtres{
+        width:100%;
+        flex-direction: column;
+        margin-left:1px;
+    }
+
+
+    .bouton{
+       width: 100%;
+       flex-direction: column;
+   }
+
+   .logements{
+       width:50%;
+   }
+
+   .marseille{
+       width:100%;
+   }
+
+   #populaires{
+        order: 1;
+        margin-right: 17px;
+        width: 100%;
+    }
+
+   #hebergement{
+        order: 2;
+        align-items: center;
+        flex-direction:column;
+        width:100%;
+        height:100%;
+
+    }
+
+    
+
+    #Activites h2 {
+        text-align: left;
+    }
+
+   footer {
+        flex: auto;
+        flex-direction: column;
+        width: 100%;
+   }
+
+   .propos,
+   .charte,
+   .assistance{
+        margin: 7px;
+  }
+
+
+}
+
+@media  screen and (min-width:376px) and (max-width:1390px) {
+
+    .logo{
+        width:130%;
+    }
+
+    main{
+        width:90%;
+        margin: left right 0px; 
+    }
+    
+    body {
+        width: 100%;
     }
 
     header{
@@ -652,14 +755,12 @@ footer li:hover{
         flex-direction:column;
         display:flex;
         flex-wrap: wrap;
-        justify-content: space-between;
+        justify-content: space-around;
         margin-bottom: 50px;
         padding-top: 2px;
         padding-left: 5px;
         padding-right: 5px;
-        width: 110%;
-        
-    
+        width: 100%;
     }
 
     header nav a {
@@ -667,20 +768,63 @@ footer li:hover{
         margin-left: 0px; 
         font-size: 30px;
    }
+   body{
+       width:100%;
+   }
+
+   .header_HA{ 
+    width: 50%;
+    padding: 20PX;
+   }
+
+   .inscription{
+       top: 2px;
+   }
 
    #filtres{
+       margin-left: 5px;
        flex-direction: column;
-       height: auto;
+       width:50%;
+   }
+
+   .section_filtres{
+       width:50%;
+       flex-direction: column;
+       margin-left:5px;
+   }
+
+   .bouton{
+       display:flex;
+       flex-direction: column;
+   }
+
+   #hebergement{
+       flex-direction:column;
+       width:50%;
+       height:100%;
+   }
+
+   .image_hebergement{
+       width:50%;
+   }
+
+   .plus{
+       margin-bottom:10px;
+       width:100%;
+   }
+
+   .image_populaires{
+       width:50%;
    }
 
     .container{
        
         flex-direction: column;
-          
+       
     }
 
-    #Activites_Marseille h2 {
-        text-align: left;
+    #Activites h2 {
+        width:70%;
     }
   
     .sortie_activites{
@@ -689,7 +833,8 @@ footer li:hover{
             
    }
 
-   .hebergement_activites {
+   .hebergement,
+   .activites {
        width: 185%;
        margin-top: 30px;
    }
@@ -705,10 +850,34 @@ footer li:hover{
         align-items: center;
   }
 
+  .pictures_commun_1,
+  .pictures_commun_2{
+      width:100%;
+}
+
+    .picturesactivity1,
+    .picturesactivity2,
+    .picturesactivity3,
+    .picturesactivity4,
+    .picturesactivity5,
+    .picturesactivity6{
+        width:100%;
+        margin-left:28px;
+    }
+
+    .image_activity_port,
+    .image_activity_pomegues,
+    .image_activity_frioul,
+    .image_activity_calanques,
+    .image_activity_garde,
+    .image_activity_longchamp{
+        width:100%,
+    }
+
     footer {
-       
+       flex: auto;
        flex-direction: column;
-       width: 160%;
+       width: 100%;
     }
 
     .propos,
@@ -716,9 +885,8 @@ footer li:hover{
     .assistance{
        margin: 7px;
     }
-    
-    
-    
-
 }
 
+@media screen and (min-width:1391px) and (max-width:1900px){
+    
+}
