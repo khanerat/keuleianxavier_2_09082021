@@ -653,63 +653,12 @@ border-top: 2px solid blue;
 /************telephone /tablette**************/
   
 
-@media screen and (min-width:900px) and (max-width:1370px){
-    body{
-       overflow: hidden;
-    }
-
-    .header{
-       display:flex;
-       flex-direction: column;
-       align-items: center;
-    }
-
-    .header_img{
-       margin:0;
-       width:75%;
-       height:95px;
-    }
-
-    .header_inscription{
-       margin-top:25px;
-    }
-
-    .header_location{
-
-    }
-
-    .header_activites{
-
-    }
-    .header_location:hover{
-       border-top:none;
-    }
-    .filtres{
-       display:flex;
-       flex-direction:row;
-       align-items: center;
-    }
-    .filtres_nav{
-       display:flex;
-       flex-direction: row;
-       align-items: center;
-    }
-    .section_filtres{
-       margin-left:0;
-    }
-    .filtres_economique{
-       margin-bottom: 20px;
-    }
-    .filtres_famille{
-       padding-left:35px;
-    }
-    .filtres_romantique{
-       align-items: center;
-    }
-
 @media screen and (max-width:899px){
 
-  
+  img{
+     width:100%;
+  }
+
 
 
    .filtres{
@@ -743,13 +692,45 @@ border-top: 2px solid blue;
       max-height: 195px;
       justify-content: center;
   }
+  .box_location{
+   border-radius:20px;
+   box-shadow:#F2F2F2
+}
+.box_hebergement{
+   border:2px solid #F2F2F2;
+   border-radius:20px;
+   box-shadow:#F2F2F2;
+}
+.box_populaires{
+   display:flex;
+   background-color:#F2F2F2;
+}
 
+.activite{
+   display:flex;
+   flex-direction:column;
+   align-items: center;
+}
+
+.footer{
+   display:flex;
+   flex-direction:row;
+   justify-content: space-between;
+   margin-right:27px;
+}  
 
    #populaires{
       
       margin-right:17px;
       width:100%;
   }
+
+  .footer{
+   display:flex;
+   flex-direction:row;
+   justify-content: space-between;
+   margin-right:27px;
+}  
 
    .footer_charte{
       overflow: auto;
@@ -760,7 +741,8 @@ border-top: 2px solid blue;
    }
 
 }
-@media  screen and (min-width:899px) and (max-width:1400px) {
+
+@media  screen and (min-width:899px) and (max-width:1383px) {
 
   
 
@@ -828,17 +810,6 @@ border-top: 2px solid blue;
        
    }
 
-   #populaires{
-       order:1;
-       margin-right:17px;
-       width:100%;
-   }
-
-   #hebergement{
-       order:2;
-       align-items: center;
-   }
-
    .image_location{
        max-width:315px;
        max-height: 140px;
@@ -847,7 +818,7 @@ border-top: 2px solid blue;
 
    #activites{
       display: flex;
-      flex-direction: column;
+      flex-direction: row;
       align-items: center;
 
   }
@@ -861,40 +832,12 @@ border-top: 2px solid blue;
        flex-direction: column;          
    }
 
- .activity1,
- .activity2,
- .activity3,
- .activity4,
- .activity5,
- .activity6{
-     width:730px;
-     height:150px;
-     margin:17px;
-  }
+   .image_activity{
+      max-width:315px;
+      max-height:140px;
+      justify-content: space-between;
 
-  .pictures_commun_1,
-  .pictures_commun_2{
-      flex-direction: column;
-  }
-
-    .picturesactivity1,
-    .picturesactivity2,
-    .picturesactivity3,
-    .picturesactivity4,
-    .picturesactivity5,
-    .picturesactivity6{
-       padding:1px 1px 12px 1px;
    }
-
-    .image_activity_port,
-    .image_activity_pomegues,
-    .image_activity_frioul,
-    .image_activity_calanques,
-    .image_activity_garde,
-    .image_activity_longchamp{
-        width:700px;
-        height:110px;
-    }
 
     footer {
      display:flex;
