@@ -1,5 +1,6 @@
 
 @media screen and  (max-width:2000px){
+
 /*****police*****/
 
   @font-face{
@@ -25,7 +26,7 @@
 
   main{
     display: block;
-    max-width: 1662px;
+    max-width: 1390px;
     margin: auto;
     padding: 0 30px;
     box-sizing: border-box;
@@ -492,8 +493,8 @@ border-top: 2px solid blue;
     flex-direction: column;
     flex-wrap: wrap;
     margin-bottom: 60px;
-    max-width: 1400px;  
-    width:100%; 
+    max-width: 1900px;  
+    width:150%; 
  }
 
 
@@ -650,6 +651,7 @@ border-top: 2px solid blue;
 }
 
 /************telephone /tablette**************/
+  
 
 @media screen and (min-width:900px) and (max-width:1370px){
      /************main***********/
@@ -1280,8 +1282,69 @@ border-top: 2px solid blue;
  }
 }
 
+@media screen and (max-width:899px){
 
+
+}
 @media  screen and (min-width:899px) and (max-width:1400px) {
+
+   #logo img{
+      width:100%; 
+   }
+
+   header{
+      display:flex;
+      flex-direction:column;
+      align-items:center;
+      margin-left:5px;
+   }
+
+   header img {
+      width:75%;
+      heigt:90px;
+   }
+
+   .header a:hover{
+        border-bottom: 2px solid blue;
+        border-top: none;
+   }
+
+   .header_HA:hover{
+      border-top: none;
+   }
+
+   .header_li{
+       font-size:15px;
+       margin-bottom:40px;
+       padding-right:40px;
+   }
+
+   .header_ul{
+        border-bottom:none;
+        margin-left: 17px;
+        margin-top: 35px;
+   }
+
+   .header_inscription{
+      margin-top:28px;
+   }
+
+   .filtres{
+      display:flex;
+      flex-direction:row;
+      align-items:center;
+      margin-top:19px;
+      margin-left: 26px;
+   }
+
+   .sections_filtres{
+      margin-left:0;
+   }
+
+   .logements{
+      flex-direction: column;
+      width:40%;
+   }
 
 
    #location{
@@ -1303,6 +1366,7 @@ border-top: 2px solid blue;
    .image_hebergement{
        max-width:315px;
        max-height: 140px;
+       justify-content: center;
    }
 
    #activites{
@@ -1386,10 +1450,16 @@ border-top: 2px solid blue;
 
     #filtres{
         align-items: left;
+        width:70%;
     }
 
     .header a:hover{
         border-bottom: 2px solid blue;
+        border-top: none;
+    }
+
+    .logements{
+       width:50%;
     }
 
     #hebergement{
@@ -1398,9 +1468,12 @@ border-top: 2px solid blue;
         flex-direction:column;
         width:100%;
         height:150%;
-        
-
     }
+
+    .image_hebergement{
+      max-width:315px;
+      max-height: 140px;
+  }
 
 
     #populaires{
@@ -1418,12 +1491,16 @@ border-top: 2px solid blue;
         align-items: left;
     }
 
+    .sortie_activites{
+       display: flex;
+       flex-direction: column;
+    }
 
     footer{
         width:150%;
         flex: auto;
         flex-direction: column;
-            
+        justify-content: center;
        
     }
 
