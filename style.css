@@ -655,9 +655,15 @@ border-top: 2px solid blue;
 
 @media screen and (max-width:899px){
 
+   #logo{
+      align-self: flex-start;
+   }
+
    #logo img{
       width: 150%;
    }
+
+   
 
    body{
       width:105%;
@@ -700,9 +706,12 @@ border-top: 2px solid blue;
       margin-top:19px;
       margin-left: 26px;
    }
+   .principal{
+      font-size:25px;
+   }
 
    .logements{
-      flex-direction: column;
+   
       width:60%;
    }
 
@@ -710,7 +719,7 @@ border-top: 2px solid blue;
    #location{
    display:flex;
     flex-wrap: wrap;
-    flex-direction: row;
+    flex-direction: column;
     align-content: space-between;
     justify-content: space-between;
     column-gap: 40px;
@@ -719,13 +728,13 @@ border-top: 2px solid blue;
     overflow:auto;
    }
 
-   .image_hebergement{
+ .image_hebergement{
       max-width:415px;
       max-height: 195px;
       justify-content: center;
   }
   #location{
-     flex-direction: column;
+     flex-direction: row;
      align-content: space-around;
   }
   .box_location{
@@ -754,8 +763,8 @@ border-top: 2px solid blue;
    height: auto;
 }
 .titre_populaires{
-  margin-left: 30px;
-  font-size: 25px;
+  margin-left: 20px;
+  font-size: 17px;
   text-align: left;
 }
 
@@ -791,7 +800,9 @@ border-top: 2px solid blue;
 
 @media  screen and (min-width:899px) and (max-width:1383px) {
 
-  
+  #logo{
+     align-self: flex-start;
+  }
 
    #logo img{
       width:100%; 
@@ -850,8 +861,11 @@ border-top: 2px solid blue;
    }
 
    .logements{
-      flex-direction: column;
+      
       width:40%;
+   }
+   .principal{
+      font-size:22px;
    }
 
 
@@ -867,9 +881,16 @@ border-top: 2px solid blue;
 
    .image_location{
        max-width:315px;
-       max-height: 140px;
+       max-height: auto;
        justify-content: center;
    }
+
+   .titre_populaires{
+      margin-left: 15px;
+      font-size: 22px;
+      text-align: left;
+    }
+    
 
    #activites{
       display: flex;
@@ -889,7 +910,7 @@ border-top: 2px solid blue;
 
    .image_activity{
       max-width:315px;
-      max-height:140px;
+      max-height:auto;
       justify-content: space-between;
 
    }
@@ -916,11 +937,9 @@ border-top: 2px solid blue;
    #logo img{
       width:100%;
    }
-   /*
-   h1{
-      font-size:5vw;
+   #logo{
+     align-self: flex-start;
    }
-   */
    img{
       width:100%;
    }
@@ -936,6 +955,7 @@ border-top: 2px solid blue;
    }
 
     header{
+       
        justify-content: flex-start;
         display:flex;
         flex-wrap: wrap;
@@ -943,14 +963,14 @@ border-top: 2px solid blue;
         margin-bottom: 25px;
         padding-top: 2px;
         padding-left: 2px;
-        padding-right: 0px;
+        padding-right: 1px;
         width: 100%;
        
     }
 
     .header {
       display: flex;
-      flex-direction: column;
+      flex-direction: row;
       align-items: center;
       margin-left: 6%;
   }
@@ -971,9 +991,13 @@ border-top: 2px solid blue;
       border-bottom: 2px solid blue;
       border-top: none;
     }
+    .principal{
+       font-size:17px;
+    }
 
     .trouver{
        width:50%;
+       font-size:17px;
 
     }
 
@@ -990,13 +1014,13 @@ border-top: 2px solid blue;
         order: 2;
         align-items: left;
         flex-direction:column;
-        width:100%;
+        width:50%;
         height:150%;
     }
 
     .image_hebergement{
-      max-width:315px;
-      max-height: 140px;
+      max-width:100%;
+      max-height: auto;
   }
 
 
@@ -1005,7 +1029,7 @@ border-top: 2px solid blue;
         margin-right: 17px;
         width: 100%;
     }
-
+   
     #activites h2 {
         text-align: left;
         margin-bottom: 50px;
@@ -1019,10 +1043,13 @@ border-top: 2px solid blue;
        display: flex;
        flex-direction: column;
     }
-
+    .image_avtivity_port,
+    .image_avtivity_pomegues,
+    .image_avtivity_frioul,
+    .image_avtivity_calanques,
     .image_avtivity_garde,
     .image_activity_longchamp{
-       height:300px;
+       height:auto;
     }
 
     footer{
