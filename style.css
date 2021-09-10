@@ -655,9 +655,41 @@ border-top: 2px solid blue;
 
 @media screen and (max-width:899px){
 
+   #logo img{
+      width: 150%;
+   }
+
+   body{
+      width:105%;
+   }
+
   img{
      width:100%;
+     height:auto;
   }
+
+  header{
+     display:flex;
+     flex-wrap: wrap;
+     justify-content: space-between;
+     width:109%;
+     margin-bottom: 35px;
+     padding-right: 3px;
+     padding-left:3px;
+     padding-top: 2px;
+  }
+  header nav a{
+     margin-left: 0px;
+     font-size: 2rem;
+  }
+  .header_HA{
+     width:50%;
+     padding:1rem;
+  }
+  .inscription{
+     top:2px;
+  }
+
 
 
 
@@ -692,9 +724,19 @@ border-top: 2px solid blue;
       max-height: 195px;
       justify-content: center;
   }
+  #location{
+     flex-direction: column;
+     align-content: space-around;
+  }
   .box_location{
    border-radius:20px;
    box-shadow:#F2F2F2
+}
+#hebergement{
+   order:2;
+   align-content: space-around;
+   margin-right: 0;
+   margin-bottom: 140px;
 }
 .box_hebergement{
    border:2px solid #F2F2F2;
@@ -704,6 +746,17 @@ border-top: 2px solid blue;
 .box_populaires{
    display:flex;
    background-color:#F2F2F2;
+}
+#populaires{
+   max-width:700px;
+   order:1; 
+   width:110%;
+   height: auto;
+}
+.titre_populaires{
+  margin-left: 30px;
+  font-size: 25px;
+  text-align: left;
 }
 
 .activite{
@@ -719,13 +772,7 @@ border-top: 2px solid blue;
    margin-right:27px;
 }  
 
-   #populaires{
-      
-      margin-right:17px;
-      width:100%;
-  }
-
-  .footer{
+.footer{
    display:flex;
    flex-direction:row;
    justify-content: space-between;
@@ -750,16 +797,19 @@ border-top: 2px solid blue;
       width:100%; 
    }
 
+
+
    header{
       display:flex;
-      flex-direction:column;
-      align-items:center;
+      flex-direction:row;
+      justify-content: space-between;
       margin-left:5px;
+      width:130%;
    }
 
    header img {
-      width:75%;
-      height:90px;
+      width:100%;
+      
    }
 
    .header a:hover{
@@ -806,8 +856,13 @@ border-top: 2px solid blue;
 
 
    #location{
+      display:flex;
+      flex-direction: row ;
       justify-content: center;
        
+   }
+   #hebergement{
+      flex-direction: column;
    }
 
    .image_location{
@@ -819,7 +874,7 @@ border-top: 2px solid blue;
    #activites{
       display: flex;
       flex-direction: row;
-      align-items: center;
+      
 
   }
     #Activites h2 {
@@ -829,7 +884,7 @@ border-top: 2px solid blue;
     .sortie_activites{
        display:flex;
        justify-content: center;
-       flex-direction: column;          
+       flex-direction: row;          
    }
 
    .image_activity{
@@ -857,10 +912,15 @@ border-top: 2px solid blue;
 }
 
 @media screen and (max-width:  400px){
-   
+
+   #logo img{
+      width:100%;
+   }
+   /*
    h1{
       font-size:5vw;
    }
+   */
    img{
       width:100%;
    }
@@ -870,8 +930,8 @@ border-top: 2px solid blue;
     }
 
    .header_img{
-      width: 80%;
-        height: 100px;
+        width: 100%;
+        height: auto;
         margin : 0;
    }
 
