@@ -673,9 +673,20 @@ border-top: 2px solid blue;
       width:105%;
    }
 
-  img{
+  figure{
      width:100%;
      height:auto;
+  }
+
+  .header a{
+   font-size:20px;
+   font-weight:bold;
+  }
+
+  
+  .inscription{
+   font-size:20px;
+   font-weight:bold;
   }
 
   header{
@@ -687,6 +698,7 @@ border-top: 2px solid blue;
      padding-right: 3px;
      padding-left:3px;
      padding-top: 2px;
+
   }
   header nav a{
      margin-left: 0px;
@@ -717,6 +729,8 @@ border-top: 2px solid blue;
    .logements{
    
       width:60%;
+      font-size: 20px;
+       
    }
 
 
@@ -732,7 +746,7 @@ border-top: 2px solid blue;
     overflow:auto;
    }
 
- .image_hebergement{
+ .figure_hebergement{
       max-width:415px;
       max-height: 195px;
       justify-content: center;
@@ -778,7 +792,7 @@ border-top: 2px solid blue;
    align-items: center;
 }
 
-.image_activites{
+.figure_activites{
    width:100%;
    height:auto;
 
@@ -818,7 +832,7 @@ border-top: 2px solid blue;
       width:100%; 
    }
 
-   img{
+   figure{
       width:100%;
       height:auto;
    }
@@ -829,6 +843,16 @@ border-top: 2px solid blue;
 
    }
 
+   .header a{
+      font-size:20px;
+      font-weight:bold;
+   }
+
+   .inscription{
+      font-size:20px;
+      font-weight:bold;
+   }
+
 
 
    header{
@@ -837,6 +861,7 @@ border-top: 2px solid blue;
       justify-content: space-between;
       margin-left:5px;
       width:130%;
+     
    }
 
    header img {
@@ -884,6 +909,8 @@ border-top: 2px solid blue;
    .logements{
       
       width:40%;
+      font-size: 20px;
+      
    }
    .principal{
       font-size:22px;
@@ -900,8 +927,8 @@ border-top: 2px solid blue;
       flex-direction: column;
    }
 
-   .image_location{
-       max-width:315px;
+   .figure_location{
+       max-width:100%;
        max-height: auto;
        justify-content: center;
    }
@@ -929,7 +956,7 @@ border-top: 2px solid blue;
        flex-direction: row;          
    }
 
-   .image_activites{
+   .figure_activites{
       max-width:100%;;
       max-height:auto;
       justify-content: space-between;
@@ -968,13 +995,23 @@ border-top: 2px solid blue;
    }
   
 
-   img{
+   figure{
       width:100%;
       height:auto;
    }
 
     main {
         width: 160%;
+    }
+
+    .header a{
+      font-size:15px;
+      font-weight:bold;
+    }
+
+    .inscription{
+      font-size:15px;
+      font-weight:bold;
     }
 
    .header_img{
@@ -1012,6 +1049,19 @@ border-top: 2px solid blue;
       padding-right: 5px;
     }
 
+    .header_li{
+      font-size:10px;
+      margin-bottom:20px;
+      padding-right:20px;
+  }
+
+  .header_ul{
+       border-bottom:none;
+       margin-left: 12px;
+       margin-top: 17px;
+  }
+
+
     .header_inscription{
        margin-top:27px;
     }
@@ -1037,6 +1087,8 @@ border-top: 2px solid blue;
 
     .logements{
        width:50%;
+       font-size: 15px;
+       
     }
 
     #hebergement{
@@ -1047,7 +1099,7 @@ border-top: 2px solid blue;
         height:150%;
     }
 
-    .image_hebergement{
+    .figure_hebergement{
       max-width:100%;
       max-height: auto;
   }
@@ -1067,7 +1119,7 @@ border-top: 2px solid blue;
     #activites{
         align-items: left;
     }
-    .image_activites{
+    .figure_activites{
        width:100%;
        height:auto;
     }
@@ -1076,12 +1128,30 @@ border-top: 2px solid blue;
        display: flex;
        flex-direction: column;
     }
-    .image_avtivity_port,
-    .image_avtivity_pomegues,
-    .image_avtivity_frioul,
-    .image_avtivity_calanques,
-    .image_avtivity_garde,
+    .image_avtivity_port{
+      width:15%;
+      height:auto
+    }
+    .image_avtivity_pomegues{
+       width:15%;
+       height:auto
+    }
+    .image_avtivity_frioul{
+      width:15%;
+      height:auto
+    }
+    .image_avtivity_calanques{
+             
+      width:15%;
+      height:auto
+
+    }
+    .image_avtivity_garde{
+       width:15%;
+       height:auto
+    }
     .image_activity_longchamp{
+       width:25%;
        height:auto;
     }
 
