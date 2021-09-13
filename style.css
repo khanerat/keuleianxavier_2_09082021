@@ -426,8 +426,8 @@ border-top: 2px solid blue;
 
   .titre_populaires{
     font-size: large;
-    margin-bottom: 25px;
-    display: flex;
+    margin-bottom: 25px;   
+    display: flex;  
     flex-direction:row;
     justify-content: space-between; 
  }
@@ -667,7 +667,6 @@ border-top: 2px solid blue;
       font-size:20px;
       font-weight:bold;
    }
-   
 
    body{
       width:105%;
@@ -676,6 +675,7 @@ border-top: 2px solid blue;
   figure{
      width:100%;
      height:auto;
+     
   }
 
   .header a{
@@ -712,15 +712,18 @@ border-top: 2px solid blue;
      top:2px;
   }
 
-
-
-
    .filtres{
       display:flex;
       flex-direction:row;
       align-items:center;
       margin-top:19px;
       margin-left: 26px;
+   }
+
+   .section_filtres{
+      font-size: 15px;
+      font-weight:bold;
+
    }
    .principal{
       font-size:25px;
@@ -832,7 +835,8 @@ border-top: 2px solid blue;
       width:100%; 
    }
 
-   figure{
+   image{
+      background-size:cover;
       width:100%;
       height:auto;
    }
@@ -842,6 +846,8 @@ border-top: 2px solid blue;
       font-weight:bold;
 
    }
+
+   
 
    .header a{
       font-size:20px;
@@ -903,7 +909,11 @@ border-top: 2px solid blue;
    }
 
    .sections_filtres{
-      margin-left:0;
+      margin-left:0;     
+      font-size: 15px;
+      font-weight:bold;
+   
+      
    }
 
    .logements{
@@ -929,7 +939,7 @@ border-top: 2px solid blue;
 
    .figure_location{
        max-width:100%;
-       max-height: auto;
+       max-height:150px;
        justify-content: center;
    }
 
@@ -937,6 +947,7 @@ border-top: 2px solid blue;
       margin-left: 15px;
       font-size: 22px;
       text-align: left;
+      grid-column: 1/-1;
     }
     
 
@@ -980,7 +991,7 @@ border-top: 2px solid blue;
     
 }
 
-@media screen and (max-width:  400px){
+@media screen and (max-width:  375px){
 
    #logo img{
       width:100%;
@@ -993,9 +1004,12 @@ border-top: 2px solid blue;
       font-size:15px;
       font-weight:bold;
    }
-  
 
-   figure{
+  
+   
+
+   image{
+      background-size:cover;
       width:100%;
       height:auto;
    }
@@ -1039,6 +1053,7 @@ border-top: 2px solid blue;
       flex-direction: row;
       align-items: center;
       margin-left: 6%;
+      justify-content:left;
   }
 
     .header_location{
@@ -1048,6 +1063,7 @@ border-top: 2px solid blue;
       padding-left: 24px;
       padding-right: 5px;
     }
+    
 
     .header_li{
       font-size:10px;
@@ -1080,10 +1096,20 @@ border-top: 2px solid blue;
 
     }
 
+    .marseille{
+       width:100%;
+       font-size:17px;
+    }
+
     #filtres{
         align-items: left;
         width:70%;
     }
+    .section_filtres p{
+      font-size: 18px;
+      font-weight:bold;
+
+   }
 
     .logements{
        width:50%;
@@ -1097,6 +1123,7 @@ border-top: 2px solid blue;
         flex-direction:column;
         width:50%;
         height:150%;
+        margin-right:60px;
     }
 
     .figure_hebergement{
@@ -1108,7 +1135,17 @@ border-top: 2px solid blue;
     #populaires{
         order: 1;
         margin-right: 17px;
-        width: 100%;
+        width: 100%;       
+    }
+    .titre_populaires{
+       display:flex;
+      grid-column: 1/-1;
+      font-size:16px ;
+      font-weight: bold;
+      justify-content: space-between;
+    }
+    .fa-chart-line{
+       position:initial;
     }
    
     #activites h2 {
@@ -1118,7 +1155,13 @@ border-top: 2px solid blue;
 
     #activites{
         align-items: left;
+        margin-left:19px;
     }
+    .titre_activites_marseille{
+       font-size:18px;
+       font-weight: bold;
+    }
+    
     .figure_activites{
        width:100%;
        height:auto;
@@ -1128,6 +1171,7 @@ border-top: 2px solid blue;
        display: flex;
        flex-direction: column;
     }
+    
     .image_avtivity_port{
       width:15%;
       height:auto
