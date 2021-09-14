@@ -653,7 +653,7 @@ border-top: 2px solid blue;
 /************telephone /tablette**************/
   
 
-@media screen and (max-width:899px){
+@media screen and (max-width:882px){
 
    #logo{
       align-self: flex-start;
@@ -826,7 +826,7 @@ border-top: 2px solid blue;
 
 }
 
-@media  screen and (min-width:899px) and (max-width:1383px) {
+@media  screen and (min-width:882px) and (max-width:1367px) {
 
   #logo{
      align-self: flex-start;
@@ -867,7 +867,9 @@ border-top: 2px solid blue;
       flex-direction:row;
       justify-content: space-between;
       margin-left:5px;
-      width:130%;
+      width:100%;
+      align-items: center;
+      padding: 30px 0px;
      
    }
 
@@ -992,7 +994,7 @@ border-top: 2px solid blue;
     
 }
 
-@media screen and (max-width:  400px){
+@media screen and (max-width:  405px){
 
    #logo img{
       width:100%;
