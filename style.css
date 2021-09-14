@@ -426,7 +426,7 @@ border-top: 2px solid blue;
 
   .titre_populaires{
     font-size: large;
-    margin-bottom: 25px;   
+    margin-bottom: 25px; 
     display: flex;  
     flex-direction:row;
     justify-content: space-between; 
@@ -795,9 +795,10 @@ border-top: 2px solid blue;
    align-items: center;
 }
 
-.figure_activites{
+.image_activites{
    width:100%;
    height:auto;
+  
 
 }
 
@@ -874,6 +875,7 @@ border-top: 2px solid blue;
       width:100%;
       
    }
+
 
    .header a:hover{
         border-bottom: 2px solid blue;
@@ -990,13 +992,14 @@ border-top: 2px solid blue;
     
 }
 
-@media screen and (max-width:  375px){
+@media screen and (max-width:  400px){
 
    #logo img{
       width:100%;
    }
    #logo{
      align-self: flex-start;
+     height: auto;
    }
 
    h1{
@@ -1022,6 +1025,8 @@ border-top: 2px solid blue;
       font-weight:bold;
     }
 
+    
+
     .inscription{
       font-size:15px;
       font-weight:bold;
@@ -1035,7 +1040,7 @@ border-top: 2px solid blue;
 
     header{
        
-       justify-content: flex-start;
+       
         display:flex;
         flex-wrap: wrap;
         justify-content: space-around;
@@ -1050,10 +1055,30 @@ border-top: 2px solid blue;
     .header {
       display: flex;
       flex-direction: row;
+      flex-wrap: wrap;
       align-items: center;
       margin-left: 6%;
-      justify-content:left;
+      
   }
+  .header12{
+     order:1;
+     width:100%;
+     margin-left:0;
+
+  }
+
+  .header3{
+     width:50%;
+     border-top: none;
+     border-bottom: 4px solid #F2F2F2;
+  }
+
+  .header3:hover{
+     border-top: 0;
+     border-bottom: 4px solid #0065CF;
+  }
+
+  
 
     .header_location{
       border-top: 0;
