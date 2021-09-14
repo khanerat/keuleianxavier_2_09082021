@@ -711,6 +711,49 @@ border-top: 2px solid blue;
   .inscription{
      top:2px;
   }
+  #search{
+     margin-top: 30px;
+  }
+  .bordureSearch{
+     justify-content: space-evenly;
+     width:100%;
+  }
+  .iconeSearch,
+  .textSearch,
+  .clique{
+     height:70px;
+  }
+
+  .iconeSearch{
+     width:5rem;
+     border-top-left-radius: 20px ;
+     border-bottom-left-radius: 20px;
+  }
+  .iconeSearch .fas{
+     font-size:2rem;
+  }
+  
+  .textSearch{
+     width:90%;
+     font-size:1.5rem;
+  }
+  .rechercher{
+     display:none;
+  }
+  
+  .clique{
+     display:block;
+     width:5rem;
+     background-color: #0065FC;
+     color:#F2F2F2;
+     font-weight: bold;
+     border:none;
+     border-radius: 1.5rem;
+  }
+  .clique .fas{
+     color:#F2F2F2;
+     font-size: 1.4rem;
+  }
 
    .filtres{
       display:flex;
@@ -912,6 +955,11 @@ border-top: 2px solid blue;
         border-top: none;
    }
 
+   .header_HA{
+      width: 50%;
+        padding: 1.25rem;
+   }
+
    .header_HA:hover{
       border-top: none;
    }
@@ -1110,12 +1158,13 @@ border-top: 2px solid blue;
         display:flex;
         flex-wrap: wrap;
         justify-content: space-around;
+        /*
         margin-bottom: 25px;
         padding-top: 2px;
         padding-left: 2px;
         padding-right: 1px;
         width: 100%;
-       
+       */
     }
 
     .header {
