@@ -1154,9 +1154,7 @@ border-top: 2px solid blue;
       font-weight:bold;
     }
 
-    #search{
-       margin-left:0px;
-    }
+    
    .header_img{
         width: 100%;
         height: auto;
@@ -1244,6 +1242,9 @@ border-top: 2px solid blue;
     .principal{
        font-size:17px;
     }
+    .tete{
+       flex-direction:inherit;
+    }
 
     .trouver{
        width:50%;
@@ -1300,7 +1301,8 @@ border-top: 2px solid blue;
       justify-content: space-between;
     }
     .fa-chart-line{
-       position:initial;
+       display:flex;
+       flex-direction: inherit;
     }
    
     #activites h2 {
