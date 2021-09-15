@@ -933,7 +933,6 @@ border-top: 2px solid blue;
    }
 
 
-
    header{
       display:flex;
       flex-direction:row;
@@ -955,6 +954,14 @@ border-top: 2px solid blue;
         border-bottom: 2px solid blue;
         border-top: none;
    }
+
+   
+     .header12{
+        order:1;
+        width:100%;
+        margin-left:0;
+   
+     }
 
    .header_HA{
        width: 50%;
@@ -1105,7 +1112,7 @@ border-top: 2px solid blue;
     
 }
 
-@media screen and (max-width:  384px){
+@media screen and (max-width:  420px){
 
    html,body{
       margin:0;
@@ -1147,6 +1154,9 @@ border-top: 2px solid blue;
       font-weight:bold;
     }
 
+    #search{
+       margin-left:0px;
+    }
    .header_img{
         width: 100%;
         height: auto;
@@ -1158,8 +1168,7 @@ border-top: 2px solid blue;
        
         display:flex;
         flex-wrap: wrap;
-        justify-content: space-around;
-        
+        justify-content: space-around;      
         margin-bottom: 25px;
         padding-top: 2px;
         padding-left: 2px;
@@ -1323,11 +1332,10 @@ border-top: 2px solid blue;
         flex: auto;
         flex-direction: column;
         justify-content: center;
+        margin-left:25px;
        
     }
 
-    .boite{
-       height:330px;
-    }
+    
 
 }
