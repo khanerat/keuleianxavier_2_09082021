@@ -669,7 +669,7 @@ border-top: 2px solid blue;
    }
 
    body{
-      width:105%;
+      width:100%;
    }
 
   figure{
@@ -718,12 +718,13 @@ border-top: 2px solid blue;
      justify-content: space-evenly;
      width:100%;
   }
+  /*
   .iconeSearch,
   .textSearch,
   .clique{
      height:70px;
   }
-
+*/
   .iconeSearch{
      width:5rem;
      border-top-left-radius: 20px ;
@@ -734,7 +735,7 @@ border-top: 2px solid blue;
   }
   
   .textSearch{
-     width:90%;
+     width:60%;
      font-size:1rem;
   }
   .rechercher{
@@ -867,8 +868,8 @@ border-top: 2px solid blue;
     }
 
 .picture{
-   width:100%;
-   height:10rem;
+   width:80%;
+   height:8rem;
   
 
 }
@@ -956,8 +957,8 @@ border-top: 2px solid blue;
    }
 
    .header_HA{
-      width: 50%;
-        padding: 1.25rem;
+       width: 50%;
+       padding: 1.25rem;
    }
 
    .header_HA:hover{
@@ -1075,7 +1076,7 @@ border-top: 2px solid blue;
     }
 
     .picture{
-       width:48rem;
+       width:60%;
        height:10rem;
     }
     
@@ -1104,7 +1105,7 @@ border-top: 2px solid blue;
     
 }
 
-@media screen and (max-width:  390px){
+@media screen and (max-width:  384px){
 
    html,body{
       margin:0;
@@ -1158,13 +1159,13 @@ border-top: 2px solid blue;
         display:flex;
         flex-wrap: wrap;
         justify-content: space-around;
-        /*
+        
         margin-bottom: 25px;
         padding-top: 2px;
         padding-left: 2px;
         padding-right: 1px;
         width: 100%;
-       */
+      
     }
 
     .header {
@@ -1175,6 +1176,12 @@ border-top: 2px solid blue;
       margin-left: 6%;
       
   }
+
+  .header_HA{
+   width: 50%;
+   padding: 1rem;
+ }
+
   .header12{
      order:1;
      width:100%;
@@ -1261,13 +1268,13 @@ border-top: 2px solid blue;
         align-items: left;
         flex-direction:column;
         width:50%;
-        height:150%;
+        height:auto;
         margin-right:60px;
     }
 
     .contenu_hebergement{
       width:100%;
-      height:5rem;
+      height:auto;
   }
 
 
