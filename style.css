@@ -876,17 +876,12 @@ border-top: 2px solid blue;
 
 .footer{
    display:flex;
-   flex-direction:row;
+   flex-direction:column;
    justify-content: space-between;
    margin-right:27px;
 }  
 
-.footer{
-   display:flex;
-   flex-direction:row;
-   justify-content: space-between;
-   margin-right:27px;
-}  
+.
 
    .footer_charte{
       overflow: auto;
