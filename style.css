@@ -1099,7 +1099,177 @@ border-top: 2px solid blue;
     
 }
 
-@media screen and (max-width:  420px){
+@media screen and (min-width:401px) and (max-width:881px){
+
+   #logo{
+      align-self: flex-start;
+   }
+ 
+    #logo img{
+       width:100%; 
+    }
+ 
+    image{
+       background-size:cover;
+       width:100%;
+       height:auto;
+    }
+ 
+    h1{
+       font-size:25px;
+       font-weight:bold;
+ 
+    }
+
+   
+   header{
+      display:flex;
+      flex-direction:row;
+      justify-content: space-between;
+      margin-left:5px;
+      width:100%;
+      align-items: center;
+      padding: 30px 0px;
+     
+   }
+
+   .header a:hover{
+        border-bottom: 2px solid blue;
+        border-top: none;
+   }
+
+   
+     .header12{
+        order:1;
+        width:100%;
+        margin-left:0;
+   
+     }
+
+   .header_HA{
+       width: 50%;
+       padding: 1.25rem;
+   }
+
+   .header_HA:hover{
+      border-top: none;
+   }
+
+   .header_li{
+       font-size:15px;
+       margin-bottom:40px;
+       padding-right:40px;
+   }
+
+   .header_ul{
+        border-bottom:none;
+        margin-left: 17px;
+        margin-top: 35px;
+   }
+
+   .header_inscription{
+      margin-top:28px;
+   }
+
+   .contenu_hebergement{
+      margin-left:15px;
+      font-size:20px;
+      text-align: left;
+   }
+   .contenu_hebergement h3{
+      font-size:18px;
+      font-weight: bold;
+   }
+
+   .titre_populaires{
+      margin-left: 15px;
+      font-size: 22px;
+      text-align: left;
+    }
+
+    .contenu_populaires{
+       margin-left: 15px;
+       font-size: 20px;
+       text-align: left;
+    }
+    .contenu_populaires h3{
+       font-size: 18px;
+       font-weight: bold;
+    }
+   #activites{
+      display: flex;
+      flex-direction: row;
+      
+
+  }
+    #Activites h2 {
+       text-align: center;       
+    }
+  
+    .sortie_activites{
+       display:flex;
+       justify-content: center;
+       flex-direction:column;          
+   }
+
+   .activity1, 
+    .activity2, 
+    .activity3, 
+    .activity4, 
+    .activity5, 
+    .activity6 {
+        width: 48rem;
+        height: 11rem;
+        margin: 1em;
+
+    }
+
+    .pictures_commun_1{
+       flex-direction:column
+    }
+    .pictures_commun_2{
+       flex-direction: column;
+    }
+
+    .picturesactivity1,
+    .picturesactivity2,
+    .picturesactivity3,
+    .picturesactivity4,
+    .picturesactivity5,
+    .picturesactivity6{
+       padding:0px 0px 9px 0px;
+    }
+
+    .picture{
+       width:50%;
+       height:9rem;
+    }
+    
+
+   .figure_activites{
+      max-width:100%;;
+      max-height:auto;
+      justify-content: space-between;
+
+   }
+
+    footer {
+     display:flex;
+     flex-direction: row;
+     justify-content: row;
+     margin-right:25px;
+    }
+
+    .footer_charte{
+       overflow: auto;
+    }
+
+    .footer_assistance{
+       overflow: auto;
+    }
+}
+
+@media screen and (max-width:  400px){
 
    html,body{
       margin:0;
@@ -1107,6 +1277,7 @@ border-top: 2px solid blue;
    }
    #logo img{
       width:100%;
+      margin-left:14px;
    }
    #logo{
      align-self: flex-start;
@@ -1206,7 +1377,7 @@ border-top: 2px solid blue;
     
 
     .header_li{
-      font-size:10px;
+      font-size:9px;
       margin-bottom:20px;
       padding-right:20px;
   }
@@ -1214,7 +1385,7 @@ border-top: 2px solid blue;
   .header_ul{
        border-bottom:none;
        margin-left: 12px;
-       margin-top: 17px;
+       margin-top: 15px;
   }
 
 
@@ -1227,7 +1398,7 @@ border-top: 2px solid blue;
       border-top: none;
     }
     .principal{
-       font-size:17px;
+       font-size:15px;
     }
     .tete{
        flex-direction:inherit;
@@ -1235,13 +1406,13 @@ border-top: 2px solid blue;
 
     .trouver{
        width:50%;
-       font-size:17px;
+       font-size:15px;
 
     }
 
     .marseille{
        width:100%;
-       font-size:17px;
+       font-size:14px;
     }
 
     #filtres{
@@ -1249,7 +1420,7 @@ border-top: 2px solid blue;
         width:70%;
     }
     .section_filtres p{
-      font-size: 18px;
+      font-size: 15px;
       font-weight:bold;
 
    }
@@ -1264,16 +1435,33 @@ border-top: 2px solid blue;
         order: 2;
         align-items: left;
         flex-direction:column;
-        width:50%;
+        width:45%;
         height:auto;
-        margin-right:60px;
+        margin-right:50px;
     }
 
     .contenu_hebergement{
-      width:100%;
+      width:50%;
       height:auto;
-  }
+      margin-left:14px;
+      font-size:18px;
+      text-align: left;
+}
+    .contenu_hebergement h3{
+      font-size:16px;
+      font-weight: bold;
+}
 
+  
+  .contenu_populaires{
+   margin-left: 14px;
+   font-size: 18px;
+   text-align: left;
+}
+.contenu_populaires h3{
+   font-size: 16px;
+   font-weight: bold;
+}
 
     #populaires{
         order: 1;
@@ -1283,7 +1471,7 @@ border-top: 2px solid blue;
     .titre_populaires{
        display:flex;
       grid-column: 1/-1;
-      font-size:16px ;
+      font-size:14px ;
       font-weight: bold;
       justify-content: space-between;
     }
@@ -1294,15 +1482,23 @@ border-top: 2px solid blue;
    
     #activites h2 {
         text-align: left;
-        margin-bottom: 50px;
+        margin-bottom: 40px;
+        font-size:14px;
+        font-weight: bold;
+    }
+
+    #activites h3{
+       text-align: left;
+       font-size:13px;
+       font-weight: bold;
     }
 
     #activites{
         align-items: left;
-        margin-left:19px;
+        margin-left:18px;
     }
     .titre_activites_marseille{
-       font-size:18px;
+       font-size:14px;
        font-weight: bold;
     }
     
@@ -1313,7 +1509,7 @@ border-top: 2px solid blue;
     
     .picture{
       width:40%;
-      height:8rem;
+      height:7rem;
     }
 
     footer{
