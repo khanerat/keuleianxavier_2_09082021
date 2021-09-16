@@ -718,13 +718,7 @@ border-top: 2px solid blue;
      justify-content: space-evenly;
      width:100%;
   }
-  /*
-  .iconeSearch,
-  .textSearch,
-  .clique{
-     height:70px;
-  }
-*/
+  
   .iconeSearch{
      width:5rem;
      border-top-left-radius: 20px ;
@@ -880,8 +874,6 @@ border-top: 2px solid blue;
    justify-content: space-between;
    margin-right:27px;
 }  
-
-.
 
    .footer_charte{
       overflow: auto;
