@@ -52,60 +52,57 @@
     padding: 0;
  }
 
+ header{
+   display: flex; 
+   align-items: center;
+   margin: 0 auto 0 auto;    
+}
+
  /***********header************/
 
-  header{
-    align-items:center;
-    display:flex;
-    flex-direction:row;
-    justify-content:space-between;
-    padding: 30px 0px;
-
- }
-
-  #logo{
-        align-self: flex-start;  
- }
-
-
-
-  .header_HA{
-    padding:30px;
-    color:black;
- }
-
-
-  .inscription{
-    color: #0065FC;
-    font-weight: bold;
-    margin-right: 50px;
-    text-decoration: none;
- }
-
-  header nav a{
-    margin-left:70px;
-    
- }
-
-  a:hover{
-    text-decoration:#0065FC;
-    color:#0065FC;
- }
-
-  a{
-    font-style:normal;
-    text-decoration:none;
-    color:black;
- }
-
-  header nav{
-    align-items:center;
-    display:flex;
- }
-
-.header a:hover{
-border-top: 2px solid blue;
+ .logo-container{
+   display: flex; 
+   width: 69%;   
 }
+
+#reservia-logo{
+   height:45px; 
+   width: 95px;
+}
+
+nav {width: 410px;}
+
+.nav-bar { 
+   font-size: 16px;
+   display: flex;
+   justify-content: center;
+   padding: 0;
+   margin:0;
+}
+
+.header_HA{
+   font-size: 18px;
+}
+
+.header_HA:hover{
+   color:#0065FC;   
+}
+
+#inscription{
+   color:#0065FC;
+   font-weight: bold;
+   margin-right: 25px;
+}
+
+header nav ul li {
+   border-top: solid 2px transparent;
+   padding: 40px 35px 41px 30px;
+}
+
+header nav ul li:hover {
+   border-top: solid 2px #0065FC;
+   color: #0065FC;       
+}  
 
 
   /****************titre*************/
@@ -684,33 +681,47 @@ border-top: 2px solid blue;
   }
 
   
-  .inscription{
-   font-size:20px;
-   font-weight:bold;
-  }
-
   header{
-     display:flex;
-     flex-wrap: wrap;
-     justify-content: space-between;
-     width:109%;
-     margin-bottom: 35px;
-     padding-right: 3px;
-     padding-left:3px;
-     padding-top: 2px;
+   flex-wrap: wrap;
+   margin: 45px auto 35px auto;
+}
 
-  }
-  header nav a{
-     margin-left: 0px;
-     font-size: 2rem;
-  }
-  .header_HA{
-     width:50%;
-     padding:1rem;
-  }
-  .inscription{
-     top:2px;
-  }
+.logo-container{
+   padding-left: 20px;
+   width: 70%;
+}
+
+nav { 
+   order: 2;
+   width: 100%;
+   margin-top: 25px;
+}
+/** RESPONSIVE HEADER NAV BAR **/
+.nav-bar{justify-content:unset;}
+
+.header_HA{font-size: 16px;}
+
+.header_HA:hover{border-top: none;}
+
+#inscription{
+   font-size: 14.5px;
+   margin:0;
+}
+
+header nav ul li{
+   border-top: none;
+   border-bottom: solid 3px #a09f9f;
+   width: 100%;
+   padding: 10px;
+   text-align: center;
+}
+
+header nav ul li:hover{
+   border-top: none;
+   border-bottom: solid 3px #0065FC;
+}
+
+/** END RESPONSIVE HEADER NAV BAR **/
   #search{
      margin-top: 30px;
   }
@@ -784,7 +795,7 @@ border-top: 2px solid blue;
     column-gap: 40px;
     row-gap: 20px; 
     width:100%;
-    overflow:auto;
+    overflow:hidden;
    }
 
  .figure_hebergement{
