@@ -701,13 +701,14 @@ header nav ul li:hover {
       display:flex;
       order: 2;
       width: 50%;
-      margin-top: 25px;
+      margin-top: 60px;
    }
 
    .navigation{
         justify-content:space-around;
         flex-direction: row-reverse;
         display:flex;
+        margin-top:-60px;
    }
 
    
@@ -744,6 +745,7 @@ header nav ul li:hover {
     .bordureSearch{
       justify-content: space-evenly;
       width:100%;
+      margin-left:-25px;
    }
   
     .iconeSearch{
@@ -1228,7 +1230,8 @@ header nav ul li:hover {
     .sortie_activites{
        display:flex;
        justify-content: center;
-       flex-direction:column;          
+       flex-direction:column;
+       width: 100%;          
    }
 
    .activity1, 
@@ -1291,7 +1294,7 @@ header nav ul li:hover {
 @media screen and (max-width:  400px){
 
    html,body{
-      margin:0;
+      margin:20px;
       padding:0;
    }
    #logo img{
@@ -1336,18 +1339,15 @@ header nav ul li:hover {
    }
 
     header{
-       
-       
-        display:flex;
-        flex-wrap: wrap;
-        justify-content: space-between;      
-        margin-bottom: 25px;
-        padding-top: 2px;
-        padding-left: 2px;
-        padding-right: 1px;
-        width: 100%;
-      
-    }
+
+      grid-template-columns: auto 1fr auto;
+      grid-template-areas:
+          "logo . button"
+          "navbar navbar navbar";
+  }
+
+   
+    
 
     .header {
       display: flex;
@@ -1362,6 +1362,14 @@ header nav ul li:hover {
   .header_HA{
    width: 50%;
    padding: 1rem;
+ }
+
+ .header_HAhebergements{
+    order:1;
+ }
+
+ .header_HAactivites{
+    order:2;
  }
 
   #inscription{ 
