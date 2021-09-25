@@ -247,7 +247,8 @@ header nav ul li:hover {
     position: relative;
     margin-left: 25px;
     flex-wrap: wrap;
-    cursor: pointer;   
+    cursor: pointer; 
+    
  }
 
   .filtres_bouton:hover{
@@ -789,11 +790,13 @@ header nav ul li:hover {
       margin-left: 26px;
    }
 
-    .section_filtres{
+   .section_filtres{
       font-size: 15px;
       font-weight:bold;
 
    }
+
+
     .principal{
       font-size:25px;
    }
@@ -816,7 +819,7 @@ header nav ul li:hover {
     row-gap: 20px; 
     width:100%;
     overflow:hidden;
-    margin-left:-40px;
+    margin-left:-55px;
    }
 
    .figure_hebergement{
@@ -1363,25 +1366,25 @@ header nav ul li:hover {
       
   }
 
-  .header_HA{
-   width: 50%;
-   padding: 1rem;
+    .header_HA{
+      width: 50%;
+      padding: 1rem;
  }
 
- .header_HAhebergements{
-    order:1;
+    .header_HAhebergements{
+      order:1;
  }
 
- .header_HAactivites{
-    order:2;
+    .header_HAactivites{
+      order:2;
  }
 
-  #inscription{ 
-    display: flex;
-    align-items: center;
-    padding: 2rem;
-    color: #0065FC;
-    font-weight: bold;
+   #inscription{ 
+     display: flex;
+     align-items: center;
+     padding: 2rem;
+     color: #0065FC;
+     font-weight: bold;
  }
 
   
@@ -1407,9 +1410,6 @@ header nav ul li:hover {
        margin-top: 15px;
   }
 
-
-    
-
     .header a:hover{
       border-bottom: 2px solid blue;
       border-top: none;
@@ -1419,6 +1419,7 @@ header nav ul li:hover {
     }
     .tete{
        flex-direction:inherit;
+       margin-left:-20px;
     }
 
     .trouver{
@@ -1436,11 +1437,16 @@ header nav ul li:hover {
     #filtres{
         align-items: left;
         width:70%;
+        margin-left:-20px;
     }
     .section_filtres p{
       font-size: 19px;
       font-weight:bold;
 
+   }
+
+   .filtres_bouton{
+      margin-left: 5px;
    }
 
     .logements{
@@ -1530,7 +1536,7 @@ header nav ul li:hover {
        display: flex;
        flex-direction: column;
        max-width: 734px;
-       margin-left:-30px;
+       margin-left:-35px;
     }
     .activity1,
     .activity2,
