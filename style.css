@@ -727,10 +727,10 @@ header nav ul li:hover {
    
    header nav ul li{
       border-top: none;
-      border-bottom: solid 3px #a09f9f;
+      border-bottom: solid 0px #a09f9f;
       width: 100%;
       padding: 10px;
-      text-align: center;
+      text-align: right;
    }
    
    header nav ul li:hover{
@@ -1001,6 +1001,15 @@ header nav ul li:hover {
         margin-top: 35px;
    }
 
+  
+
+   .navigation{
+      justify-content: space-around;
+      flex-direction: row;
+      display: flex;
+      margin-top: -60px;
+   }
+
    .header_inscription{
       margin-top:28px;
    }
@@ -1068,7 +1077,8 @@ header nav ul li:hover {
     .sortie_activites{
        display:flex;
        justify-content: center;
-       flex-direction:column;          
+       flex-direction:column;
+       width:100%;          
    }
 
    .activity1, 
@@ -1153,7 +1163,7 @@ header nav ul li:hover {
    header{
       display:flex;
       flex-direction:row;
-      justify-content: space-between;
+      justify-content: center;
       margin-left:5px;
       width:100%;
       align-items: left;
@@ -1194,6 +1204,13 @@ header nav ul li:hover {
         border-bottom:none;
         margin-left: 17px;
         margin-top: 35px;
+   }
+
+   .navigation{
+      justify-content: right;
+      flex-direction: row;
+      display: flex;
+      margin-top: -60px;
    }
 
    
@@ -1352,9 +1369,7 @@ header nav ul li:hover {
           "navbar navbar navbar";
           margin-left:-30px;
   }
-
    
-    
 
     .header {
       display: flex;
