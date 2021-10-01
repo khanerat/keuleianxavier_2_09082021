@@ -852,6 +852,7 @@ header nav ul li:hover {
  .box_populaires{
    display:flex;
    background-color:#F2F2F2;
+   max-width: 100%;
  }
  #populaires{
    max-width:700px;
@@ -1065,7 +1066,16 @@ header nav ul li:hover {
       font-size: 22px;
       text-align: left;
     }
-    
+
+    #populaires {
+      max-width: 700px;
+      order: 1;
+      width: 110%;
+      height: auto;
+    }
+    .box_populaires{
+      max-width: 100%;
+    }
 
    #activites{
       display: flex;
