@@ -54,6 +54,7 @@
  *{
     margin: 0;
     padding: 0;
+    text-decoration: none;
  }
 
  /***********header************/
@@ -96,6 +97,7 @@ nav {width: 410px;}
    color:#0065FC;
    font-weight: bold;
    margin-right: 25px;
+   text-decoration: none;
 }
 
 header nav ul li {
@@ -116,6 +118,7 @@ header nav ul li:hover {
     flex-direction: row;
     width: 425px;
     justify-content: center;
+   
  }
 
   .tete{
@@ -497,8 +500,8 @@ header nav ul li:hover {
     flex-direction: column;
     flex-wrap: wrap;
     margin-bottom: 30px;
-    max-width: 1900px;  
-    width:150%; 
+    max-width: 100%;  
+    
  }
 
 
@@ -516,7 +519,7 @@ header nav ul li:hover {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
-    max-width: 1280px;     
+    max-width:100%;     
  }
 
 
@@ -874,8 +877,8 @@ header nav ul li:hover {
     .activity4, 
     .activity5, 
     .activity6 {
-        width: 48rem;
-        height: 11rem;
+        width:100%;
+        height: auto;
         margin: 1em;
 
     }
@@ -1087,9 +1090,9 @@ header nav ul li:hover {
     .activity4, 
     .activity5, 
     .activity6 {
-        width: 48rem;
-        height: 11rem;
-        margin: 1em;
+        width: 80%;
+        height: auto;
+        margin: 0em;
 
     }
 
@@ -1107,6 +1110,7 @@ header nav ul li:hover {
     .picturesactivity5,
     .picturesactivity6{
        padding:0px 0px 10px 0px;
+       width:200%;
     }
 
     .picture{
@@ -1127,6 +1131,7 @@ header nav ul li:hover {
      flex-direction: row;
      justify-content: row;
      margin-right:26px;
+     margin-left:10px;
     }
 
     .footer_charte{
@@ -1179,7 +1184,7 @@ header nav ul li:hover {
     #inscription{ 
      display: flex;
      align-items: center;
-     
+   
      padding: 2rem;
      color: #0065FC;
      font-weight: 600;
@@ -1254,7 +1259,7 @@ header nav ul li:hover {
        display:flex;
        justify-content: center;
        flex-direction:column;
-       width: 100%;          
+       width: 85%;          
    }
 
    .activity1, 
@@ -1263,9 +1268,9 @@ header nav ul li:hover {
     .activity4, 
     .activity5, 
     .activity6 {
-        width: 48rem;
-        height: 11rem;
-        margin: 1em;
+        width: 100%;
+        height: auto;
+        margin: 0em;
 
     }
 
@@ -1283,6 +1288,7 @@ header nav ul li:hover {
     .picturesactivity5,
     .picturesactivity6{
        padding:0px 0px 9px 0px;
+       width:200%;
     }
 
     .picture{
@@ -1300,9 +1306,10 @@ header nav ul li:hover {
 
     footer {
      display:flex;
-     flex-direction: row;
-     justify-content: row;
+     flex-direction: column;
+     justify-content: flex-start;
      margin-right:25px;
+     width:135%;
     }
 
     .footer_charte{
@@ -1559,7 +1566,7 @@ header nav ul li:hover {
     .activity4,
     .activity5,
     .activity6{
-       width:40%;
+       width:60%;
     }
 
     
