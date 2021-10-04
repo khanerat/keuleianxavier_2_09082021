@@ -1318,10 +1318,11 @@
    
        footer {
         display:flex;
-        flex-direction: column;
+        flex-direction: row;
         justify-content: flex-start;
         margin-right:25px;
-        width:135%;
+        width:105%;
+        padding-left:40px;
        }
    
        .footer_charte{
