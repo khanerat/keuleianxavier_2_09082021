@@ -724,13 +724,7 @@
       .header_HA{font-size: 16px;}
       
       .header_HA:hover{border-top: none;}
-      /*
-      #inscription{
-         order:1;
-         font-size: 14.5px;
-         margin:0;
-      }
-      */
+      
       header nav ul li{
          border-top: none;
          border-bottom: solid 0px #a09f9f;
@@ -1205,18 +1199,7 @@
          margin-top: 12px;
 
       }
-   /*
-       #inscription{ 
-        display: flex;
-        align-items: center;
-       
-       
-      
-        padding: 2rem;
-        color: #0065FC;
-        font-weight: 600;
-     }
-   */
+  
 
    #inscription{
       order:1;
