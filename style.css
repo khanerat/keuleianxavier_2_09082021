@@ -75,7 +75,8 @@
       width: 95px;
    }
    
-   nav {width: 410px;}
+   nav {width: 410px;
+   height:-1px;}
    
    .navigation { 
       font-size: 16px;
@@ -705,7 +706,9 @@
       
       nav { 
          display:flex;
+         /*
          order: 2;
+         */
          width: 50%;
          margin-top: 60px;
       }
@@ -721,13 +724,13 @@
       .header_HA{font-size: 16px;}
       
       .header_HA:hover{border-top: none;}
-      
+      /*
       #inscription{
          order:1;
          font-size: 14.5px;
          margin:0;
       }
-      
+      */
       header nav ul li{
          border-top: none;
          border-bottom: solid 0px #a09f9f;
@@ -961,7 +964,7 @@
       header{
          display:flex;
          flex-direction:row;
-         justify-content: space-between;
+         justify-content: space-around;
          margin-left:5px;
          width:100%;
          align-items: left;
@@ -1011,7 +1014,7 @@
          justify-content: space-around;
          flex-direction: row;
          display: flex;
-         margin-top: -60px;
+         margin-top: -20px;
       }
    
       .header_inscription{
@@ -1158,11 +1161,14 @@
    @media screen and (min-width:401px) and (max-width:881px){
    
       
-    
+    .logo{
+       margin-left:-200px;
+    }
     
        #logo img{
           width:100%; 
        }
+       
     
        image{
           background-size:cover;
@@ -1192,15 +1198,32 @@
            border-bottom: 2px solid blue;
            border-top: none;
       }
-   
+      nav{
+         display:flex;
+         order: 2;
+         width: 45%;
+         margin-top: 12px;
+
+      }
+   /*
        #inscription{ 
         display: flex;
         align-items: center;
+       
+       
       
         padding: 2rem;
         color: #0065FC;
         font-weight: 600;
      }
+   */
+
+   #inscription{
+      order:1;
+      font-size: 14.5px;
+      margin:0;
+
+   }
    
       .header_HA{
           width: 50%;
@@ -1227,7 +1250,7 @@
          justify-content: right;
          flex-direction: row;
          display: flex;
-         margin-top: -60px;
+         margin-top: -30px;
       }
    
       
@@ -1420,6 +1443,8 @@
         padding: 2rem;
         color: #0065FC;
         font-weight: bold;
+        margin-top:-98px;
+        margin-right:-45px;
     }
    
      
