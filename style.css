@@ -1246,7 +1246,7 @@
       
      #hebergement{
         height:auto,
-        padding:0px 100px 20px 65px;
+        padding : 0px 100px 20px 65px;
      }
       .contenu_hebergement{
          margin-left:15px;
@@ -1481,10 +1481,6 @@
    
        }
    
-       .marseille{
-          width:100%;
-          font-size:19px;
-       }
        
    
        #filtres{
@@ -1512,10 +1508,23 @@
            order: 2;
            align-items: left;
            flex-direction:column;
-           width:80%;
+           width:65%;
            height:auto;
            margin-right:50px;
            margin-bottom:15px;
+           margin-top:51px;
+           margin-left:5px;
+       }
+
+       .marseille{
+         width:100%;
+         font-size:19px;
+         text-align:center;
+      }
+      
+
+       .container{
+          justify-content: center;
        }
    
        .contenu_hebergement{
