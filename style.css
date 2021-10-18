@@ -660,7 +660,7 @@
    
    /************telephone /tablette**************/
      
-   
+   /*
    @media screen and (max-width:882px){
    
        #logo{
@@ -708,7 +708,7 @@
          display:flex;
          /*
          order: 2;
-         */
+         
          width: 50%;
          margin-top: 60px;
       }
@@ -922,8 +922,9 @@
       }
    
    }
+   */
    
-   @media  screen and (min-width:882px) and (max-width:1367px) {
+   @media  screen and (min-width:882px) and (max-width:1024px) {
    
    
      
@@ -1142,7 +1143,6 @@
    
        footer {
         display:flex;
-        flex-direction: row;
         justify-content: row;
         margin-right:26px;
         margin-left:10px;
@@ -1159,11 +1159,11 @@
    }
    
    @media screen and (min-width:401px) and (max-width:881px){
-   
+   body{
+      width:65%;
+   }
       
-    .logo{
-       margin-left:-200px;
-    }
+   
     
        #logo img{
           width:100%; 
@@ -1237,17 +1237,15 @@
            margin-top: 35px;
       }
    
-      .navigation{
-         justify-content: right;
-         flex-direction: row;
-         display: flex;
-         margin-top: -50px;
-      }
-   
+      
       
      #hebergement{
+      order:2;
+      align-content: space-around;
+      margin-left: 35px;
+      margin-bottom: 90px;
         height:auto,
-        padding : 0px 100px 20px 65px;
+     
      }
       .contenu_hebergement{
          margin-left:15px;
@@ -1258,6 +1256,12 @@
          font-size:18px;
          font-weight: bold;
       }
+      #populaires{
+         max-width:700px;
+         order:1; 
+         width:110%;
+         height: auto;
+        }
    
       .titre_populaires{
          margin-left: 15px;
