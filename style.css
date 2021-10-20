@@ -28,7 +28,7 @@
      
 /************main***********/
    body{
-      width:1270px;
+      width:1380px;
       display:flex;
       flex-direction:column;    
       padding: 0 30px;
@@ -170,9 +170,6 @@
    
      #search{
        display: flex;
-       /*
-       justify-content: center;
-       */
        height: 40px;
        margin-top: 10px;    
     }
@@ -675,7 +672,7 @@
    /************telephone /tablette**************/
      
    
-   @media screen and (min-width:1000px)and (max-width:1400px){
+   @media screen and (min-width:800px)and (max-width:1024px){
 
 /**header**/
    
@@ -945,7 +942,7 @@
    
    
    
-   @media screen and (min-width:600px) and (max-width:999px){
+   @media screen and (min-width:500px) and (max-width:799px){
 
    body{
       width:65%;
@@ -1151,7 +1148,7 @@
        }
    }
    
-   @media screen and (max-width:  599px){
+   @media screen and (max-width:  499px){
       body {
          overflow-x: hidden;
          width: 100%;
