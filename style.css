@@ -25,13 +25,10 @@
      a {
         color:black;
      }
-     html {
-      line-height: 1.15;
-      -webkit-text-size-adjust: 100%;
-    }
+     
 /************main***********/
    body{
-      width:2305px;
+      width:1270px;
       display:flex;
       flex-direction:column;    
       padding: 0 30px;
@@ -73,7 +70,7 @@
     header{
       display: flex; 
       max-width:1480px;
-      align-items: center;
+      align-items: center;     
       margin: 0 auto 0 auto;    
    }
    
@@ -89,12 +86,12 @@
    
    nav {
       width: 410px;
-      height:-1px;}
+      }
    
    .navigation { 
       font-size: 16px;
       display: flex;
-      justify-content: center;
+      
       padding: 0;
       margin:0;
    }
@@ -131,7 +128,7 @@
        display: flex;
        flex-direction: row;
        width: 425px;
-       justify-content: center;
+      
       
     }
    
@@ -139,20 +136,20 @@
        display:flex;
        flex-direction:column;
        flex-wrap: wrap;
-       justify-content:center;
+      
     }
    
      .principal{
        display:flex;
        flex-direction: column;
-       justify-content: center;
+       
     }
    
      .trouver,
      .centre,
      .search{
        display:flex;
-       justify-content: center;
+       
     }
    
     .trouver{
@@ -173,7 +170,9 @@
    
      #search{
        display: flex;
+       /*
        justify-content: center;
+       */
        height: 40px;
        margin-top: 10px;    
     }
@@ -230,7 +229,7 @@
    
      #filtres{
        display: flex;
-       justify-content: center;
+       
        align-items: center;
        flex-wrap: wrap;
        margin: 32px 0px 41px 0px;
@@ -340,7 +339,9 @@
    
      #location{
        display:flex;
+       /*
        justify-content: center;
+       */
        flex-wrap: wrap;
        flex-direction: row;
        align-content: space-between;
@@ -835,7 +836,9 @@
      
       .box_location{
       border-radius:20px;
+      /*
       box-shadow:#F2F2F2
+      */
     }
 /**hebergement**/
 
