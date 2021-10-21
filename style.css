@@ -96,15 +96,7 @@
    nav {
       width: 410px;
       }
-   
-   .navigation { 
-      font-size: 16px;
-      display: flex;
-      
-      padding: 0;
-      margin:0;
-   }
-   
+  
    .header_HA{
       font-size: 18px;
    }
@@ -133,12 +125,12 @@
    
  /****************titre*************/
    
-     .navigation{
-       display: flex;
-       flex-direction: row;
-       width: 425px;
-      
-      
+    .navigation{
+        display: flex;
+        flex-direction: row;
+        width: 350px;
+  
+  
     }
    
      .tete{
@@ -640,10 +632,14 @@
      footer {
        display: flex;
        position:relative;
+       /*
        width:100%;
+       */
        bottom:0; 
        justify-content: space-around;
-       background-color: #f2f2f2;
+       background: #f2f2f2;
+       object-fit: cover;
+       
        
     }
    
@@ -684,6 +680,12 @@
    
    @media screen and (min-width:800px)and (max-width:1024px){
 
+      body{
+         overflow-x: hidden;
+         width:100%;
+         margin:0;
+      }
+
 /**header**/
    
        #logo{
@@ -692,6 +694,14 @@
    
        #logo img{
          width: 150%;
+      }
+      .logo{
+         padding-left: 20px;
+         width: 70%;
+      }
+      #inscription{
+        margin-left:50px;
+        margin-top:9px;
       }
    
        h1{
@@ -714,31 +724,25 @@
    
    
        header{
-        flex-wrap: wrap;
-        margin: 15px auto 20px auto;
+        
+        margin: 20px auto 25px auto;
       }
    
       
    
-      .logo{
-         padding-left: 20px;
-         width: 70%;
-      }
+      
       
       nav { 
-         display:flex;
-         /*
-         order: 2;
-         */
-         width: 50%;
-         margin-top: 60px;
+         display:flex;    
+         width: 32%;
+         margin-top: 10px;
       }
    
       .navigation{
           
            flex-direction: row;
            display:flex;
-           margin-top:-60px;
+           margin-top:0px;
       }
    
       
@@ -772,8 +776,8 @@
      }
        .bordureSearch{
          justify-content: space-evenly;
-         width:100%;
-         margin-left:-25px;
+         width:30%;
+         
       }
      
        .iconeSearch{
@@ -794,8 +798,8 @@
       }
      
        .clique{
-         display:block;
-         width:4rem;
+         
+         width:15rem;
          background-color: #0065FC;
          color:#F2F2F2;
          font-weight: bold;
@@ -806,6 +810,7 @@
         color:#F2F2F2;
         font-size: 1.4rem;
       }
+     
 /**filtres**/
 
        .filtres{
@@ -836,8 +841,7 @@
 
       #location{
        width:125%;
-       margin-left:-15px;
-     }
+      }
      
       .box_location{
       border-radius:20px;
@@ -850,9 +854,12 @@
      #hebergement{
         order:2;
         align-content: space-around;
-        margin-left: 35px;
         margin-bottom: 90px;
+        padding:0px 210px 20px 0px;
       
+    }
+    .container{
+       width:120%;
     }
      .box_hebergement{
         border:2px solid #F2F2F2;
@@ -863,22 +870,54 @@
 /**populaires**/
 
      #populaires{
+        
        order:1; 
-       width:81%;
+       width:73%;
        height: auto;
+       
   }
+  .block_populaires{
+     display:flex;
+     flex-direction:row;
+     width:105%;
+  }
+  
     .box_populaires{
+       /*
+      grid-template-columns: repeat(3, 1fr);
+      grid-template-rows: auto 10rem;
+      column-gap: 2rem;
+      grid-row-start: 1;
+      
       display:flex;
+      */
       background-color:#F2F2F2;
-      max-width: 100%;
+      max-width: 95%;
     }
    
     .titre_populaires{
-     margin-left: 20px;
+     
      font-size: 17px;
      text-align: left;
     }
+    .image_populaires{
+      width: 132px;
+      height: 181px;
+      object-fit: cover;
+      border-top-left-radius: 22px;
+      border-bottom-left-radius: 22px;
+    }
  /**activites**/
+
+     #activites{
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        margin-bottom: 30px;
+       max-width: 100%;
+       margin-top: 25px;
+   }
 
     .activite{
       display:grid;
@@ -950,9 +989,13 @@
    
    
    
-   @media screen and (min-width:500px) and (max-width:799px){
+   @media screen and (min-width:600px) and (max-width:799px){
 
-   
+   body{
+      width:100%;
+      overflow-x:hidden;
+      min-height: 100%;
+   }
    
   /**header**/
 
@@ -991,15 +1034,15 @@
       }
       nav{
          display:flex;
-         order: 2;
-         width: 45%;
+         
+         width: 130%;
          margin-top: 12px;
 
       }
   
 
    #inscription{
-      order:1;
+      
       font-size: 14.5px;
       margin:0;
       margin-top:10px;
@@ -1035,7 +1078,7 @@
            align-content: space-around;
            margin-left: 35px;
            margin-bottom: 90px;
-           
+           max-width:726px;
      
      }
       .contenu_hebergement{
@@ -1053,7 +1096,7 @@
       #populaires{
          max-width:700px;
          order:1; 
-         width:110%;
+         width:50%;
          height: auto;
         }
    
@@ -1076,9 +1119,14 @@
  /**activites**/
 
       #activites{
+         row-gap: 2rem;
+         grid-template-columns: repeat(2, 1fr);
+         grid-template-rows: auto 12rem 12rem 12rem;
+     
+         /*
          display: flex;
          flex-direction: row;
-         
+         */
    
      }
        #Activites h2 {
@@ -1153,19 +1201,20 @@
        }
    }
    
-   @media screen and (max-width:  499px){
+   @media screen and (max-width:  599px){
       
+      body{
+         width:100%;
+      }
+
+     
 
       /**header**/
 
       #logo img{
          width:100%;
       }
-      #logo{
-        align-self: flex-start;
-        height: auto;
-      }
-   
+       
       h1{
          font-size:2em;
          font-weight:bold;
@@ -1194,20 +1243,18 @@
            height: auto;
            margin : 0;
       }
-   .navigation{
-      grid-template-columns: auto 1fr auto auto;
-         grid-template-areas: "logo . navbar button";
-   }
-   /*
+   
+  
        header{
    
          grid-template-columns: auto 1fr auto;
          grid-template-areas:
-             "logo . button"
-             "navbar navbar navbar";
-             margin-left:-30px;
+             "logo . button navbar"
+             "navbar navbar ";
+             margin-left:10px;
+             width:50%;
      }
-      */
+      
    
        .header {
          
@@ -1277,8 +1324,8 @@
           font-size:15px;
        }
        .tete{
-          flex-direction:inherit;
-          margin-left:-20px;
+          flex-direction:column;
+          margin-left:10px;
        }
    
        .trouver{
@@ -1290,9 +1337,10 @@
        /**filtre**/
    
        #filtres{
-           
-           width:70%;
-           margin-left:-20px;
+           display:flex;
+           flex-direction:column;
+           width:25%;
+           margin-left:5px;
        }
        .section_filtres p{
          font-size: 19px;
@@ -1309,13 +1357,20 @@
           font-size: 15px;
           
        }
+       #location{
+         display: flex;
+         /* justify-content: center; */
+         width: 110%;
+         flex-direction:column;
+         
+     }
+       
    /**hebergement**/
 
        #hebergement{
-           order: 2;
-           align-items: left;
+           order: 2;          
            flex-direction:column;
-           width:90%;
+           width:70%;
            height:auto;
            
            margin-bottom:15px;
@@ -1350,7 +1405,7 @@
        #populaires{
          order: 1;
          margin-right: -23px;
-         width: 75%; 
+         width: 65%; 
          margin-bottom: -25px;   
          height:auto;   
      }
@@ -1400,11 +1455,13 @@
           text-align: left;
           font-size:15px;
           font-weight: bold;
+          margin-left:30px;
        }
    
        #activites{
-           align-items: left;
-           margin-left:0px;
+           width:88%;
+           margin-left:30px;
+           
        }
        .titre_activites_marseille{
           font-size:14px;
@@ -1440,7 +1497,7 @@
            flex: auto;
            flex-direction: column;
            justify-content: center;
-           margin-left:-100px;
+           margin-left:10px;
           
        }
       
