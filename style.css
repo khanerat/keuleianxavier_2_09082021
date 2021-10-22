@@ -122,7 +122,7 @@
     .navigation{
         display: flex;
         flex-direction: row;
-        width: 350px;
+        width: 420px;
         justify-content: space-around;
   
   
@@ -627,10 +627,8 @@
    
      footer {
        display: flex;
-       position:relative;
-       /*
-       width:100%;
-       */
+       position:relative;      
+       width:90%;     
        bottom:0; 
        justify-content: space-around;
        background: #f2f2f2;
@@ -841,9 +839,11 @@
      #hebergement{
         order:2;
         align-content: space-around;
-        margin-bottom: 90px;
-        grid-template-columns: 1fr 1fr;      
-        padding:0px 140px 30px 0px;
+        margin-bottom: 40px;
+        /*
+        grid-template-columns: 1fr 1fr;  
+        */    
+        padding:50px 125px 30px 95px;
         
       
     }
@@ -863,7 +863,7 @@
      #populaires{
         
        order:1; 
-       width:71%;
+       width:100%;
        height: auto;
        padding:15px 57px 0px 0px;
        
@@ -895,7 +895,7 @@
 
      
 
-    .activite{
+    #activite{
       display:grid;
       grid-template-columns:repeat(3,1fr);
       row-gap:2rem;
@@ -905,7 +905,14 @@
     .sortie_activites {
       display: flex;
     }
-      
+     .activity1, 
+     .activity2,
+     .activity3,
+     .activity4,
+     .activity5,
+     .activity6{
+        width:100%;
+     }
     .activity1{
        grid-column: 1/3;
        grid-row:1;
@@ -1055,7 +1062,7 @@
            order:2;
            align-content: space-around;
            margin-left: 35px;
-           margin-bottom: 90px;
+           margin-bottom: 20px;
            max-width:726px;
      
      }
@@ -1096,7 +1103,7 @@
 
  /**activites**/
 
-      .activites{
+      #activites{
          row-gap: 2rem;
          grid-template-columns: repeat(2, 1fr);
          grid-template-rows: auto 12rem 12rem 12rem;
@@ -1105,9 +1112,8 @@
    
      }
      
-       .activites h2 {
-          
-          text-align: center;       
+       .titre_activites_marseille{
+          margin:0;
        }
      
        .sortie_activites{
@@ -1196,7 +1202,7 @@
        }
    }
    
-   @media all and (max-device-width:  599px){
+   @media all and (max-width:  599px){
       
       body{
          width:100%;
@@ -1289,6 +1295,11 @@
           border-bottom:none;
           margin-left: 12px;
           margin-top: 15px;
+     }
+     header nav ul li:hover {
+      border-bottom: solid 2px #0065FC;
+      color: #f2f2f2;
+      border-top:none;
      }
      /*
      header nav ul li{
@@ -1427,21 +1438,21 @@
        }
       /**activites**/
 
-       .activites h2 {
+       #activites h2 {
            text-align: left;
            margin-bottom: 20px;
            font-size:19px;
            font-weight: bold;
        }
    
-       .activites h3{
+       #activites h3{
           text-align: left;
           font-size:15px;
           font-weight: bold;
           margin-left:30px;
        }
    
-       .activites{
+       #activites{
            width:88%;
            margin-left:30px;
            
@@ -1481,8 +1492,7 @@
            text-align: center;
            flex-direction: column;
            justify-content: center;
-           
-          
-       }
+                   
+          }
       
    }
