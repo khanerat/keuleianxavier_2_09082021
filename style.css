@@ -32,12 +32,12 @@
       height :100%;
       margin:0;
       padding:0;
+      width: 80%;
 
    }
    body{
       
      height:auto; 
-      width:1400px;
       padding:0 10px;
       margin:0 auto;
       position:relative;
@@ -476,7 +476,7 @@
     }
    
      .image_populaires{
-       width: 132px;
+       width: 100%;
        height: 132px;
        object-fit: cover;
        border-top-left-radius: 22px;
@@ -667,13 +667,12 @@
    /************telephone /tablette**************/
      
    
-   @media screen and (min-width:1024px)and (max-width:1440px){
+   @media screen and (min-width:601px)and (max-width:1200px){
 
       body{
          overflow-x: hidden;
-         width:100%;
          padding:0 10px;
-         margin:0 auto;
+         /* margin:0 auto; */
          position:relative;
       }
       
@@ -790,7 +789,7 @@
       }
      
        .clique{
-         
+         display: block;
          width:15rem;
          background-color: #0065FC;
          color:#F2F2F2;
@@ -799,6 +798,7 @@
          border-radius: 1.5rem;
       }
        .clique .fas{
+        display: block;
         color:#F2F2F2;
         font-size: 1.4rem;
       }
@@ -881,8 +881,9 @@
   
     .box_populaires{
       background-color:#F2F2F2;
-      width: 100%;
-      margin-left:160px;
+      width: 90%;
+      /* margin-left:160px; */
+      margin: 30px;
     }
    
     .titre_populaires{
@@ -891,7 +892,8 @@
      text-align: left;
     }
     .image_populaires{
-      width: 105px;
+      min-width: 40%;
+      width: 40%;
       height: 181px;
       object-fit: cover;
       border-top-left-radius: 22px;
@@ -992,321 +994,9 @@
    
    
    
-   @media screen and (min-width:600px) and (max-width:1023px){
-
-   body{
-      width:120%;
-      overflow-x:hidden;
-      padding:0 10px;
-      margin:0 auto;
-      position:relative;
-      max-height: 1024px;
-   }
-   
-/**header**/
-
-       #logo img{
-          width:100%; 
-       }
-       
-    
-       image{
-          background-size:cover;
-          width:100%;
-          height:auto;
-       }
-    
-       h1{
-          font-size:25px;
-          font-weight:bold;
-    
-       }
-   
-      
-      header{
-         display:flex;
-         flex-direction:row;
-         justify-content: center;
-         margin-left:5px;
-         width:100%;
-         padding: 30px 0px;
-        
-      }
-   
-       .header a:hover{
-           border-bottom: 2px solid blue;
-           border-top: none;
-      }
-      nav{
-         display:flex;
-         
-         width: 45%;
-         margin-top: 12px;
-
-      }
-  
-
-   #inscription{
-      
-      font-size: 14.5px;
-      margin:0;
-      margin-top:10px;
-      margin-right:-42px;
-
-   }
-   
-      .header_HA{
-          width: 50%;
-          padding: 1.25rem;
-      }
-   
-      .header_HA:hover{
-         border-top: none;
-      }
-   
-      .header_li{
-          font-size:15px;
-          margin-bottom:40px;
-          padding-right:40px;
-      }
-   
-      .header_ul{
-           border-bottom:none;
-           margin-left: 17px;
-           margin-top: 35px;
-      }
-/**filtre**/
-      #search{
-         margin-top: 30px;
-     }
-       .bordureSearch{
-         justify-content: space-evenly;
-         width:30%;
-         
-      }
-     
-       .iconeSearch{
-         width:5rem;
-         border-top-left-radius: 20px ;
-         border-bottom-left-radius: 20px;
-     }
-       .iconeSearch .fas{
-         font-size:2rem;
-      }
-     
-       .textSearch{
-         width:60%;
-         font-size:1rem;
-      }
-       .rechercher{
-         display:none;
-      }
-     
-       .clique{
-         
-         width:15rem;
-         background-color: #0065FC;
-         color:#F2F2F2;
-         font-weight: bold;
-         border:none;
-         border-radius: 1.5rem;
-      }
-       .clique .fas{
-        color:#F2F2F2;
-        font-size: 1.4rem;
-      }
-     
-       .filtres{
-         display:flex;
-         flex-direction:row;
-         align-items:center;
-         margin-top:19px;
-         margin-left: 26px;
-      }
-   
-      .section_filtres{
-         font-size: 15px;
-         font-weight:bold;
-   
-      }
-      #location {
-         width: 130%;
-         margin-left: 5px;
-      }
-/**hebergement**/
-      
-       #hebergement{        
-           order:2;
-           align-content: space-around;
-           margin-left: 35px;
-           margin-bottom: 20px;
-           width:1112px;
-           height:auto;
-     
-     }
-      .contenu_hebergement{
-         margin-left:15px;
-         font-size:20px;
-         text-align: left;
-      }
-      .contenu_hebergement h3{
-         font-size:18px;
-         font-weight: bold;
-      }
-      .box_hebergement{
-         padding:0px 0px 0px 0px;
-      }
-      #container{
-         width:86%;
-         display:flex;
-         flex-wrap: wrap;
-         justify-content: space-between;
-         margin-bottom: 20px;
-
-      }
-
-/**populaires**/
-
-      #populaires{
-        
-         order:1; 
-         width:100%;
-         height: auto;
-        }
-        .block_populaires{
-           display:flex;
-           flex-direction:row;
-          
-        }
-   
-      .titre_populaires{
-         margin-left: 15px;
-         font-size: 22px;
-         text-align: left;
-       }
-   
-       .contenu_populaires{
-          margin-left: 15px;
-          font-size: 20px;
-          text-align: left;
-       }
-       .contenu_populaires h3{
-          font-size: 18px;
-          font-weight: bold;
-       }
-       .box_populaires{
-          width:365px;
-       }
-
- /**activites**/
-
-      #activites{
-         width:98%;
-     }
-     
-       .titre_activites_marseille{
-          margin:0;
-       }
-     
-       .sortie_activites{
-          width:100%;
-          row-gap: 2rem;
-         grid-template-columns: repeat(2, 1fr);
-         grid-template-rows: auto 12rem 12rem 12rem;
-       }
-        
-  
-       .activity1, 
-       .activity2, 
-       .activity3, 
-       .activity4, 
-       .activity5, 
-       .activity6 {
-           width: 100%;
-           height: auto;
-           margin: 0em;
-           margin-top:18px;
-           margin-left:50px;
-   
-       }
-       
-       .activity1,
-       .activity4{
-          width:17%;
-          display:grid;
-          grid-template-areas: "a a";
-          grid-gap:10px;
-          grid-auto-columns: 200px;
-          margin-left:75px;
-
-       }
-   
-       .activity1{
-         grid-column: 1/3;
-         grid-row:1;
-         
-      } 
-         .activity2{
-            grid-column:2/4;
-            grid-row:1/3;
-     } 
-         .activity3{
-           grid-column:1;
-           grid-row:2/5;
-         } 
-         .activity4{
-           grid-column:3;
-           grid-row:3;
-         } 
-         .activity5{
-           grid-column:2;
-           grid-row:4;
-         }
-         .activity6 {
-           grid-column:3;
-           grid-row:4;
-         }
-       .picturesactivity1,
-       .picturesactivity2,
-       .picturesactivity3,
-       .picturesactivity4,
-       .picturesactivity5,
-       .picturesactivity6{
-          width:200%;
-          height:auto;
-       }
-   
-       .picture{
-          width:50%;
-          height:9rem;
-       }
-       
-   
- /**footer**/
-
-       footer {
-        display: flex;
-        position:relative;       
-        flex-direction: row;
-        justify-content: space-between;
-        margin-right:25px;
-        width:105%;
-        padding-left:40px;
-       }
-   
-       .footer_charte{
-          overflow: auto;
-       }
-   
-       .footer_assistance{
-          overflow: auto;
-       }
-   }
-   
-   @media all and (max-width:  599px){
+   @media all and (max-width:  600px){
      
       body{
-         width:100%;
       }
 
      
@@ -1414,6 +1104,7 @@
    
        }
    
+       
  /**filtre**/
    
        #filtres{
@@ -1443,13 +1134,33 @@
          flex-direction:column;
          
      }
-       
+     
+     .clique{
+      display: block;
+      width:4rem;
+      background-color: #0065FC;
+      color:#F2F2F2;
+      font-weight: bold;
+      border:none;
+      border-radius: 1.5rem;
+   }
+
+    .clique .fas{
+     display: block;
+     color:#F2F2F2;
+     font-size: 1.4rem;
+   }
+
+   .rechercher{
+      display:none;
+   }
+
 /**hebergement**/
 
        #hebergement{
            order: 2;          
            flex-direction:column;
-           width:85%;
+           width:125%;
            height:auto;         
            margin-bottom:15px;
            margin-top:51px;
@@ -1483,8 +1194,6 @@
 
        #populaires{
          order: 1;
-         margin-right: -23px;
-         width: 78%; 
          margin-bottom: -25px;   
          height:auto;   
      }
@@ -1505,7 +1214,7 @@
          font-weight: bold;
      }
        .image_populaires{
-          width:40%;
+          width:34%;
           height:auto;
        }
    
