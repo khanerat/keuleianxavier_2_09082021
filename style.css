@@ -847,7 +847,7 @@
         display:flex;
         align-content: space-around;
         margin-bottom: 40px;
-        width:73%;
+        width:95%;
        
         
       
@@ -855,7 +855,8 @@
     #container{
       
       
-       width:95%;
+       width:100%;
+       padding:20px 140px 20px 140px;
        
     }
      .box_hebergement{
@@ -869,7 +870,7 @@
      #populaires{
         
        order:1; 
-       width:70%;
+       width:92%;
        height: auto;
       
        
@@ -882,7 +883,7 @@
   
     .box_populaires{
       background-color:#F2F2F2;
-      width: 70%;
+      width: 100%;
       /* margin-left:160px; */
       margin: 30px;
     }
@@ -918,6 +919,7 @@
     
     .sortie_activites {
       display: flex;
+      width:100%;
     }
      .activity1, 
      .activity2,
@@ -935,16 +937,16 @@
        .picturesactivity4,
        .picturesactivity5,
        .picturesactivity6{
-          padding:0px 0px 10px 0px;
+          padding:0px 0px 0px 0px;
           
        }
        .pictures_commun_1,
        .pictures_commun_2{   
            display: flex;
-         width: 28%;
+         width: 100%;
          flex-direction: column;
          justify-content: space-between;
-         margin-right:35px;
+         margin-right:30px;
       }
    
     .picture{
@@ -1098,9 +1100,8 @@
    
        #filtres{
            display:flex;
-           flex-direction:column;
-           width:25%;
-           margin-left:5px;
+           flex-wrap:wrap;
+           margin-top:3rem;    
        }
        .section_filtres p{
          font-size: 19px;
@@ -1136,7 +1137,7 @@
 
 
    .logements{
-      width:50%;
+      width:100%;
       font-size: 15px;
       
    }
@@ -1155,7 +1156,7 @@
        #hebergement{
            order: 2;          
            flex-direction:column;
-           width:75%;
+           width:95%;
            height:auto;         
            margin-bottom:15px;
            margin-top:51px;
@@ -1192,12 +1193,24 @@
          margin-bottom: -25px;   
          height:auto;   
      }
+     .box_populaires{
+      width: 100%;
+      max-height:150px;
+     }
        .titre_populaires{
           display:flex;
           grid-column: 1/-1;
           font-size:19px ;
           font-weight: bold;
           justify-content: space-between;
+     }
+     #container{
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      align-content: space-between;
+      margin-bottom: 20px;
+      padding: 35px 30px 35px 30px;
      }
       .contenu_populaires{
          margin-left: 14px;
@@ -1310,7 +1323,7 @@
          display:flex;
          flex-wrap: wrap;
          margin-left:10px;
-         width:0%;
+         width:50%;
       }
       .header_HAhebergements{
          order:1;
@@ -1398,7 +1411,7 @@
       .activity6 {
          box-shadow: 0 0 10px #0000002e;
          padding: 0px 0px 20px 0px;
-         border-radius: 20 px;
+         border-radius: 20px;
          margin: 0px 20px 20px 0px;
       }
       .picturesactivity1, 
