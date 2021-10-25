@@ -1361,6 +1361,23 @@
        border-bottom: 2px solid blue;
        border-top: none;
      }
+     .rechercher{
+      display:none;
+   }
+     .clique{
+      display: block;
+      width:4rem;
+      background-color: #0065FC;
+      color:#F2F2F2;
+      font-weight: bold;
+      border:none;
+      border-radius: 1.5rem;
+   }
+     .clique .fas{
+      display: block;
+      color:#F2F2F2;
+      font-size: 1.4rem;
+    }
       #hebergement{
          order:2;
          width:82%;
