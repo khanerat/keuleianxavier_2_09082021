@@ -30,7 +30,7 @@
 
    html, body{
       height :100%;     
-      margin:0 auto;
+      margin:0 10px;
       padding:0;
       width: 100%;
 
@@ -38,10 +38,10 @@
    
    
    main{
-      max-width:1500px;
+      max-width:1300px;
       display:flex;
       flex-direction:column;
-      margin:auto;
+      margin:0 auto;
       padding-bottom:50px;
         
    }
@@ -69,28 +69,34 @@
    
 /***********header************/
    
-    header{
+    #container_logo{
       display: flex; 
-      width:100%;
-      align-items: center;     
-      margin: 0 auto 0 auto;    
+      width:82%;
+      flex-direction:row;
+      align-items: center; 
+      margin-top:25px;
+      margin-bottom:25px;    
+          
    }
    
    .logo{
       display: flex; 
-      width: 69%;   
+      width: 50%;  
+      margin-left:280px; 
    }
    
    #reservia{
-      height:45px; 
-      width: 100%;
+      height:70px; 
+      width:65%;
+     
+      
    }
    header nav{
       display: flex;
       align-items: center;
   }
    nav {
-      width: 400px;
+      width: 20%;
       }
   
    .header_HA{
@@ -124,10 +130,12 @@
     .navigation{
         display: flex;
         flex-direction: row;
-        width: 400px;
+        max-width: 400px;
         justify-content: space-around;
-  
-  
+    }
+    .navigation1{
+       display:flex;
+       width:85%;
     }
    
      .tete{
@@ -616,7 +624,7 @@
        height: 200px;
     }
    
-   
+
    
      footer h2 {
        font-size: 22px;  
@@ -676,31 +684,31 @@
          margin:0 auto;
       }
 
-/**header**/
+
+ /**header**/     
+
+   #container_logo{
+      width:100%;
+      display:flex;
+   }
    
-       #reservia{
-         align-self: flex-start;
-      }
-   
-       #logo img{
-         width: 150%;
-      }
+      
       .logo{
-         padding-left: 20px;
-         width: 70%;
+        display:flex;
+         width: 100%;
+         margin-left:0;
       }
+      
       #inscription{
         margin-left:50px;
         margin-top:9px;
+        width:100%;
       }
    
        h1{
          font-size:20px;
-         font-weight:bold;
-         
-         
-        
-      }
+         font-weight:bold;  
+         }
    
       
    
@@ -716,12 +724,16 @@
      }
    
    
-       header{
+       .container_logo{
         width:100%;
         margin: 25px 0px 20px 20px;
       }
       
-      
+      #reservia{
+         height:70px;
+         width:100%;
+         margin-left:auto;
+      }
       nav { 
          display:flex;    
          width: 70%;
@@ -733,9 +745,8 @@
            flex-direction: row;
            display:flex;
            margin-top:0px;
-           /*
-           margin-left:70px;
-           */
+           width:100%;
+          
       }
    
       
@@ -754,16 +765,21 @@
          padding: 10px;
          text-align: right;
       }
+      header nav ul li {
+         border-top: solid 2px transparent;
+         padding: 40px 35px 41px 30px;
+     }
       
-      header nav ul li:hover{
-         border-bottom: none;
-         border-bottom: solid 3px #0065FC;
-      }
+      
        header nav a{
          margin-left: 0px;
          font-size: 2rem;
       }
+
+
 /**filtres**/
+
+
        #search{
          margin-top: 30px;
      }
@@ -840,6 +856,8 @@
       border-radius:20px;
       
     }
+
+
 /**hebergement**/
 
      #hebergement{
@@ -901,6 +919,8 @@
       border-top-left-radius: 22px;
       border-bottom-left-radius: 22px;
     }
+
+
  /**activites**/
 
      
@@ -994,18 +1014,23 @@
 
  /**header**/
       
-
-       
+     #reservia{
+       height:70px; 
+       width:50%;
+   
+      }
+      
       h1{
          font-size:2em;
          font-weight:bold;
       }
    
    
-      image{
+      .logo{
          background-size:cover;
          width:100%;
          height:auto;
+         margin-left:0;
       }
   
        .header a{
@@ -1019,7 +1044,15 @@
            margin : 0;
       }
    
-  
+       
+      header nav ul li:hover {
+         border-bottom: solid 2px #0065FC;
+         color: #f2f2f2;
+         border-bottom:none;
+        }
+       header nav{
+          width:35%;
+       }
        header{
          width: 100%;
          margin: 25px 0px 20px 20px;
@@ -1030,7 +1063,17 @@
              width:0%;
              */
      }
-      
+     .header_li{
+      font-size:9px;
+      margin-bottom:20px;
+      padding-right:20px;
+  }
+
+  .header_ul{
+       border-bottom:none;
+       margin-left: 12px;
+       margin-top: 15px;
+  }
   
        .header_HA{
          width: 50%;
@@ -1051,6 +1094,7 @@
         padding: 1rem;
         color: #0065FC;
         font-weight: bold;
+        margin-left:100px;
         
         
     }
@@ -1058,24 +1102,13 @@
       display:flex;
       flex-direction:row;
       margin-top:0;
+      width:100%;
+
+     
    }
    
-       .header_li{
-         font-size:9px;
-         margin-bottom:20px;
-         padding-right:20px;
-     }
-   
-     .header_ul{
-          border-bottom:none;
-          margin-left: 12px;
-          margin-top: 15px;
-     }
-     header nav ul li:hover {
-      border-bottom: solid 2px #0065FC;
-      color: #f2f2f2;
-      border-top:none;
-     }
+      
+    
   
        .header a:hover{
          border-bottom: 2px solid blue;
@@ -1186,7 +1219,10 @@
      .box_hebergement{
         padding:0px 6px 0px 0px;
      }
+
+
    /**populaire**/
+
 
        #populaires{
          order: 1;
@@ -1238,7 +1274,10 @@
           display:flex;
           flex-direction: inherit;
        }
+
+
       /**activites**/
+
 
        #activites h2 {
            text-align: left;
@@ -1256,7 +1295,7 @@
    
        #activites{       
           
-           width:100%;
+           width:96%;
            margin-left:30px;
            display:flex;
            flex-direction: column;
@@ -1289,6 +1328,8 @@
          width:100%;
          height:8rem;
        }
+
+
    /**footer**/
 
        footer{
@@ -1296,8 +1337,8 @@
            object-fit: cover;
            align-items: center;
            text-align: center;
-           flex-direction: column;
-           justify-content: center;
+           flex-direction: row;
+           justify-content: space-around;
                    
           }
       
@@ -1312,18 +1353,24 @@
          margin-left:20px;
       }
 
+ /**header**/     
+
      #reservia{
-         align-self: flex-start;
+         align-self: flex-start;      
+            height:90px; 
+            width:60%; 
       }
-      .logo{
-         padding-left: 20px;
-         width: 70%;
-      }
-      header{
+    
+      #container_logo{
          display:flex;
          flex-wrap: wrap;
          margin-left:10px;
-         width:50%;
+         width:60%;
+      }
+      .logo{
+         display:flex;
+         width:100%;
+         margin-left:0;
       }
       .header_HAhebergements{
          order:1;
@@ -1332,12 +1379,41 @@
        .header_HAactivites{
          order:2;
     }
+    .header_HA:hover{
+      border-top: none;
+   }
+   
+   header nav ul li{
+      border-top: none;
+      border-bottom: solid 0px #a09f9f;
+      width: 100%;
+      padding: 10px;
+      text-align: right;
+   }
+   header nav ul li {
+      border-top: solid 2px transparent;
+      padding: 40px 35px 41px 30px;
+  }
+   
+   
+    header nav a{
+      margin-left: 0px;
+      font-size: 2rem;
+   }
+    .navigation{
+       width:290%;
+    }
+    .navigation1{
+       display:flex;
+       justify-content: space-between;
+    }
+   
     #inscription{ 
       display: flex;       
       padding: 1rem;
       color: #0065FC;
       font-weight: bold;
-      margin-top:-140px;
+      margin-top:-160px;
       margin-left:250px;
       
   }
@@ -1353,6 +1429,10 @@
         border-bottom:none;
         margin-left: 12px;
         margin-top: 15px;
+   }
+   header nav{
+      display:flex;
+      align-items: center;
    }
    header nav ul li:hover {
     border-bottom: solid 2px #0065FC;
@@ -1381,18 +1461,29 @@
       color:#F2F2F2;
       font-size: 1.4rem;
     }
+
+ /**hebergement**/
+ 
+ 
       #hebergement{
          order:2;
          width:82%;
          display:flex;
          flex-direction:column;
       }
+
+/**populaires**/
+
       #populaires{
          order:1;
          width:77%;
          display:flex;
          flex-direction:column;
       }
+
+ /**activites**/
+ 
+ 
       #activites{
          width:100%;
          display:flex;
@@ -1429,6 +1520,8 @@
       width:100%;
       height:8rem;
     }
+
+ /**footer**/   
       footer{
          width:100%;
          display:flex;
