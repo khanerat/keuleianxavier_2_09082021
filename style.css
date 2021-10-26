@@ -673,7 +673,7 @@
    
    @media screen and (min-width:800px) and (max-width:1500px){
       main{
-         width:100%;
+         width:98%;
          display:flex;
          margin:7px;
       }
@@ -1003,7 +1003,7 @@
    
 
      main{
-        width:100%;
+        width:96%;
         margin:10px;
      }
 
