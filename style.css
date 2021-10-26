@@ -1509,4 +1509,11 @@
          display:flex;
          flex-direction:column;
       }
+      .propos,
+      .charte,
+      .assistance{
+         margin-left:15px;
+
+      }
+      
    }
