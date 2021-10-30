@@ -339,7 +339,7 @@
        /*
        justify-content: center;
        */
-       flex-wrap: wrap;
+       
        flex-direction: row;
        align-content: space-between;
        column-gap: 40px;
@@ -442,9 +442,10 @@
        border-radius: 20px;
        padding: 40px 40px 40px 40px;      
        margin-bottom: auto;
-       margin-top: 10px;  
+       margin-top: 8px;  
        float:right;
        margin-left:20px; 
+       height:585px;
     }
    
      .titre_populaires{
@@ -672,7 +673,7 @@
    /************telephone /tablette**************/
      
    
-   @media screen and (min-width:800px) and (max-width:1500px){
+   @media screen and (min-width:700px) and (max-width:1024px){
       main{
          width:98%;
          display:flex;
@@ -849,6 +850,8 @@
       #location{
        width:100%;
        margin-left:5px;
+       display:flex;
+       flex-wrap:wrap;
       }
      
       .box_location{
@@ -862,6 +865,7 @@
      #hebergement{
         order:2;
         display:flex;
+        flex-wrap: wrap;
         align-content: space-around;
         margin-bottom: 40px;
         width:95%;
@@ -873,7 +877,7 @@
       
       
        width:100%;
-       padding:20px 140px 20px 140px;
+      
        
     }
      .box_hebergement{
@@ -900,9 +904,9 @@
   
     .box_populaires{
       background-color:#F2F2F2;
-      width: 100%;
-      /* margin-left:160px; */
-      margin: 30px;
+      width: 30%;
+     
+      margin: 5px;
     }
    
     .titre_populaires{
@@ -911,9 +915,9 @@
      text-align: left;
     }
     .image_populaires{
-      min-width: 40%;
+      
       width: 40%;
-      height: 181px;
+      height: auto;
       object-fit: cover;
       border-top-left-radius: 22px;
       border-bottom-left-radius: 22px;
@@ -962,7 +966,7 @@
        .pictures_commun_1,
        .pictures_commun_2{   
            display: flex;
-         width: 100%;
+         width: 75%;
          flex-direction: column;
          justify-content: space-between;
          margin-right:30px;
@@ -998,332 +1002,8 @@
       }
    
    }
-    
-   @media screen and (min-width:651px) and ( max-width:  799px){
-     
-   
-
-     main{
-        width:96%;
-        margin:10px;
-     }
-
- /**header**/
-      
-     #reservia{
-       height:70px; 
-       width:52%;
-   
-      }
-      
-      h1{
-         font-size:2em;
-         font-weight:bold;
-      }
-   
-   
-      .logo{
-         background-size:cover;
-         width:100%;
-         height:auto;
-         margin-left:0;
-      }
-  
-       .header a{
-         font-size:15px;
-        
-       }
-   
-      .header_img{
-           width: 100%;
-           height: auto;
-           margin : 0;
-      }
-   
-       
-      header nav ul li:hover {
-         border-bottom: solid 2px #0065FC;
-         color: #f2f2f2;
-         border-bottom:none;
-        }
-       header nav{
-          width:35%;
-       }
-       header{
-         width: 100%;
-         margin: 25px 0px 20px 20px;
-   
-     }
-     .header_li{
-      font-size:9px;
-      margin-bottom:20px;
-      padding-right:20px;
-  }
-
-  .header_ul{
-       border-bottom:none;
-       margin-left: 12px;
-       margin-top: 15px;
-  }
-  
-       .header_HA{
-         width: 50%;
-         padding: 1rem;
-    }
-    
-   
-       .header_HAhebergements{
-         order:1;
-    }
-   
-       .header_HAactivites{
-         order:2;
-    }
-   
-      #inscription{ 
-        display: flex;       
-        padding: 1rem;
-        color: #0065FC;
-        font-weight: bold;
-        margin-left:100px;   
-    }
-   .navigation{
-      display:flex;
-      flex-direction:row;
-      margin-top:0;
-      
-
-     
-   }   
-  
-       .header a:hover{
-         border-bottom: 2px solid blue;
-         border-top: none;
-       }
-       .principal{
-          font-size:15px;
-       }
-       .tete{
-          flex-direction:column;
-          margin-left:10px;
-       }
-   
-       .trouver{
-          width:90%;
-          font-size:15px;
-   
-       }
-   
-       
- /**filtre**/
-   
-       #filtres{
-           display:flex;
-           flex-wrap:wrap;
-           margin-top:3rem;    
-       }
-       .section_filtres p{
-         font-size: 19px;
-         font-weight:bold;
-   
-      }
-   
-      .filtres_bouton{
-         margin-left: 5px;
-      }
-   
-       
-     
-     .clique{
-      display: block;
-      width:4rem;
-      background-color: #0065FC;
-      color:#F2F2F2;
-      font-weight: bold;
-      border:none;
-      border-radius: 1.5rem;
-   }
-
-    .clique .fas{
-     display: block;
-     color:#F2F2F2;
-     font-size: 1.4rem;
-   }
-
-   .rechercher{
-      display:none;
-   }
-
-
-   .logements{
-      width:100%;
-      font-size: 15px;
-      
-   }
-
-/****hebergement-populaires****/
-
-   #location{
-     display: flex;
-     width: 100%;
-     flex-direction:column;
-     
-   }
-
-/**hebergement**/
-
-       #hebergement{
-           order: 2;          
-           flex-direction:column;
-           width:95%;
-           height:auto;         
-           margin-bottom:15px;
-           margin-top:51px;
-           
-       }
-
-       .marseille{
-         width:100%;
-         font-size:19px;
-         text-align:center;
-      }
-      
-
-       
-   
-       .contenu_hebergement{
-         width:100%;
-         height:auto;
-         margin-left:14px;
-         font-size:18px;
-         text-align: left;
-     }
-       .contenu_hebergement h3{
-         font-size:16px;
-         font-weight: bold;
-     }
-     .box_hebergement{
-        padding:0px 6px 0px 0px;
-     }
-
-
-   /**populaire**/
-
-
-       #populaires{
-         order: 1;
-         margin-bottom: -25px;   
-         height:auto;   
-     }
-     .box_populaires{
-      width: 100%;
-      max-height:150px;
-     }
-    
-     #container{
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: space-between;
-      align-content: space-between;
-      margin-bottom: 20px;
-      padding: 35px 30px 35px 30px;
-     }
-      .contenu_populaires{
-         margin-left: 14px;
-         font-size: 18px;
-         text-align: left;
-     }
-       .contenu_populaires h3{
-         font-size: 16px;
-         font-weight: bold;
-     }
-       .image_populaires{
-          width:34%;
-          height:auto;
-       }
-   
-     
-       .titre_populaires{
-          display:flex;
-         grid-column: 1/-1;
-         font-size:19px ;
-         font-weight: bold;
-         justify-content: space-between;
-       }
-       .fa-chart-line{
-          display:flex;
-          flex-direction: inherit;
-       }
-
-
-      /**activites**/
-
-
-       #activites h2 {
-           text-align: left;
-           margin-bottom: 20px;
-           font-size:19px;
-           font-weight: bold;
-       }
-   
-       #activites h3{
-          text-align: left;
-          font-size:15px;
-          font-weight: bold;
-          margin-left:30px;
-       }
-   
-       #activites{       
-          
-           width:96%;
-           margin-left:30px;
-           display:flex;
-           flex-direction: column;
-         
-       }
-       .titre_activites_marseille{
-          font-size:14px;
-          font-weight: bold;
-       }
-       
-       .sortie_activites{
-          display: flex;
-          flex-direction: column;        
-          margin-left:-25px;
-       }
-
-       .activity1,
-       .activity2,
-       .activity3,
-       .activity4,
-       .activity5,
-       .activity6{
-          width:105%;
-          
-       }
-   
-       
-       
-       .picture{
-         width:100%;
-         height:8rem;
-       }
-
-
-   /**footer**/
-
-       footer{
-          width:100%;
-           object-fit: cover;
-           align-items: center;
-           text-align: center;
-           flex-direction: row;
-           justify-content: space-around;
-                   
-          }
-      
-   }
-   @media screen and (max-width:650px) {
+ 
+   @media screen and (max-width:699px) {
       main{
          width:98%;
          margin:10px;
@@ -1438,7 +1118,17 @@
       color:#F2F2F2;
       font-size: 1.4rem;
     }
+    .filtres_bouton:hover{
+      text-decoration: underline;
+      color: #0065FC;   
+   }
 
+   #location{
+      display:flex;
+      flex-wrap:wrap;
+      width:100%;
+
+   }
  /**hebergement**/
  
  
@@ -1448,6 +1138,7 @@
          display:flex;
          flex-direction:column;
       }
+
     
 /**populaires**/
 
@@ -1456,6 +1147,7 @@
          width:77%;
          display:flex;
          flex-direction:column;
+         margin-left:0px;
       }
 
  /**activites**/
