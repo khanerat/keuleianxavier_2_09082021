@@ -109,7 +109,7 @@
    }
    
    header nav ul li {
-      border-top: solid 2px transparent;
+      border-top: solid 2px #f2f2f2;
       padding: 40px 35px 41px 30px;
    }
    
@@ -539,6 +539,7 @@
    
      .sortie_activites{
        display: flex;
+       flex-direction:row;
        max-width:100%;     
     }
    
@@ -680,14 +681,25 @@
    
    
    /************telephone /tablette**************/
-     
+   
    @media screen and (min-width:1024px) and (max-width:1212px){
       #activites{
          display:flex;
          flex-wrap: wrap;
          flex-direction:row;
       }
+      .titre_activites_marseille{
+         display:flex;
+         flex-direction:row;
+      }
+      .sortie_activites{
+         display: flex;
+         flex-wrap:wrap;
+         flex-direction: row;
+         max-width: 100%;
+      }
    }
+
    @media screen and (min-width:768px) and (max-width:1024px){
       main{
          width:98%;
@@ -786,7 +798,7 @@
          text-align: right;
       }
       header nav ul li {
-         border-top: solid 2px transparent;
+         border-top: solid 2px #f2f2f2;
          padding: 40px 35px 41px 30px;
      }
       
@@ -819,15 +831,13 @@
       }
      
        .textSearch{
-         width:60%;
+         width:100%;
          font-size:1rem;
       }
-       .rechercher{
-         display:none;
-      }
+      
      
        .clique{
-         display: block;
+         
          width:6rem;
          background-color: #0065FC;
          color:#F2F2F2;
@@ -877,6 +887,9 @@
       .box_location{
       border-radius:20px;
       
+    }
+    .info_logo{
+       display:flex;
     }
 
 
@@ -1069,7 +1082,7 @@
       text-align: right;
    }
    header nav ul li {
-      border-top: solid 2px transparent;
+      border-bottom: solid 2px #f2f2f2;
       padding: 40px 35px 41px 30px;
   }
    
@@ -1097,7 +1110,7 @@
   }
   h1{
      font-weight: bold;
-     font-size:x-large;
+     font-size:15px;
      
   }
   
@@ -1146,7 +1159,8 @@
       color:#F2F2F2;
       font-weight: bold;
       border:none;
-      border-radius: 1.5rem;
+      border-top-right-radius: 1.5rem;
+    border-bottom-right-radius: 1.5rem;
    }
      .clique .fas{
       display: block;
@@ -1156,6 +1170,9 @@
     .filtres_bouton:hover{
       text-decoration: underline;
       color: #0065FC;   
+   }
+   .info_logo{
+      display:flex;
    }
 
    #location{
@@ -1205,7 +1222,7 @@
 
       #populaires{
          order:1;
-         width:77%;
+         width:90%;
          display:flex;
          flex-direction:column;
          margin-left:0px;
@@ -1219,7 +1236,7 @@
         
          width:100%;
          height:180px;
-
+         background-color:#F2F2F2;
          
       }
  /**activites**/
