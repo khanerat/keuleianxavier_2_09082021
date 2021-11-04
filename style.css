@@ -639,7 +639,7 @@
        position:relative;      
        width:100%;
        bottom:0; 
-       justify-content: space-around;
+       justify-content: space-evenly;
        background: #f2f2f2;
        object-fit: cover;
        
@@ -681,48 +681,6 @@
    
    /************telephone /tablette**************/
    
-   @media screen and (min-width:1024px) and (max-width:1212px){
-      #activites{
-         display:flex;
-         background-color: white;      
-         flex-direction: column;
-         flex-wrap: wrap;
-         margin-bottom: 30px;
-         max-width: 100%;  
-         margin-top: 25px;
-                 
-      }
-
-      .titre_activites_marseille{
-         display:flex;
-         flex-direction:row;
-      }
-      .sortie_activites{
-         display: flex;
-        
-         flex-direction: row;
-         max-width: 100%;
-      }
-      .picturesactivity1,
-      .picturesactivity2,
-      .picturesactivity4,
-      .picturesactivity5,
-      .picturesactivity6{
-         display:flex;
-         flex-direction:row;
-      }
-      /*
-      .picture-vertical{
-         height:250px;
-      }
-      .picture-horizontal{
-         height:80px;
-      }
-      .picture{
-         width:200px;
-      }
-      */
-   }
 
    @media screen and (min-width:768px) and (max-width:1024px){
       main{
@@ -1184,8 +1142,8 @@
       color:#F2F2F2;
       font-weight: bold;
       border:none;
-      border-top-right-radius: 1.5rem;
-    border-bottom-right-radius: 1.5rem;
+      border-top-right-radius: 1rem;
+    border-bottom-right-radius: 1rem;
    }
      .clique .fas{
       display: block;
