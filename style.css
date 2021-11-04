@@ -30,7 +30,6 @@
 
    
    
-   
    main{
          
       display:flex;
@@ -56,7 +55,7 @@
     }
    
     *{
-       margin: 0;
+       margin: 0 ;
        padding: 0;
        text-decoration: none;
     }
@@ -346,7 +345,7 @@
        
        flex-direction: row;
        align-content: space-between;
-       column-gap: 40px;
+       column-gap: 100px;
        row-gap: 20px; 
        width:100%;
       
@@ -384,7 +383,7 @@
        border-radius: 18px;
        padding: 2px 2px 2px 2px;
        background-color: white;
-       max-width:236px;
+       max-width:400px;
        margin-bottom: 22px;
        box-shadow: 0 0 16px black; 
        margin-left:15px;   
@@ -540,7 +539,7 @@
      .sortie_activites{
        display: flex;
        flex-direction:row;
-       max-width:100%;     
+       width:100%;     
     }
    
    
@@ -614,7 +613,7 @@
     } 
    
      .picture {
-       width: 300px;
+       width: 100%;
     }
    
      .picture-vertical {
@@ -685,26 +684,51 @@
    @media screen and (min-width:1024px) and (max-width:1212px){
       #activites{
          display:flex;
+         background-color: white;      
+         flex-direction: column;
          flex-wrap: wrap;
-         flex-direction:row;
+         margin-bottom: 30px;
+         max-width: 100%;  
+         margin-top: 25px;
+                 
       }
+
       .titre_activites_marseille{
          display:flex;
          flex-direction:row;
       }
       .sortie_activites{
          display: flex;
-         flex-wrap:wrap;
+        
          flex-direction: row;
          max-width: 100%;
       }
+      .picturesactivity1,
+      .picturesactivity2,
+      .picturesactivity4,
+      .picturesactivity5,
+      .picturesactivity6{
+         display:flex;
+         flex-direction:row;
+      }
+      /*
+      .picture-vertical{
+         height:250px;
+      }
+      .picture-horizontal{
+         height:80px;
+      }
+      .picture{
+         width:200px;
+      }
+      */
    }
 
    @media screen and (min-width:768px) and (max-width:1024px){
       main{
          width:98%;
          display:flex;
-         margin:7px;
+         
          height:auto;
          margin:0 auto;
       }
@@ -1040,6 +1064,7 @@
    @media screen and (min-width:310px) and (max-width:767px) {
       main{
          width:100%;
+         display:flex;
          
       }
      
@@ -1196,41 +1221,35 @@
          margin-top:5px;
          background-color:transparent;
       }
-      /*
+     
       #container{
          display:flex;
          width:100%;
+         flex-wrap:wrap;
+         justify-content: space-around;
       }
-      */
+      
       .box_hebergement{
-         width:100%;
-         display:flex;
-         flex-direction: column;
-         height:auto;
+        width:100%;
        }
-       /*
+       
        .image_hebergement{
+          object-fit: cover;
          display:flex;
          width:100%;
        }
-       .contenu_hebergement{
-         display:flex;
-         width:100%;
-       }
-    */
+      
 /**populaires**/
 
       #populaires{
          order:1;
-         width:90%;
+         width:100%;
          display:flex;
          flex-direction:column;
          margin-left:0px;
+         border-radius:0;
       }
-      #container{
-         display:flex;
-         width:100%;
-      }
+     
 
       .box_populaires{
         
