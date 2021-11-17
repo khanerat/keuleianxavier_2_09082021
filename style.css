@@ -423,13 +423,16 @@
        font-size:20px;
        
     }
+
+    
    
      .plus{
        font-weight: bold;
        display:flex;
        flex-direction:column;
        justify-content: flex-start;
-       margin-bottom:12px;
+       margin-bottom:70px;
+       margin-left:20px;
      
     }
    
