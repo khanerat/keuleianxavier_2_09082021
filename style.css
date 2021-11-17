@@ -67,7 +67,6 @@
       width:96%;
       flex-direction:row;
       align-items: center; 
-      margin-top:25px;
       margin-bottom:25px;    
           
    }
@@ -1150,9 +1149,24 @@
       color:#F2F2F2;
       font-size: 1.4rem;
     }
+    .filtres_bouton{
+       padding:5px 0px 0px 0px;
+    }
     .filtres_bouton:hover{
       text-decoration: underline;
       color: #0065FC;   
+   }
+   .icone_filtres {
+      width: 40px;
+      height: 40px;
+      background-color: #DEEBFF;
+      border-radius: 50%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      position: absolute;
+      top: 7px;
+      left: 1px;
    }
    .info_logo{
       display:flex;
