@@ -447,7 +447,7 @@
    
      .titre_populaires{
        font-size: large;
-       margin-bottom: 70px; 
+       margin-bottom: 65px; 
        display: flex;  
        flex-direction:row;
        justify-content: space-between; 
