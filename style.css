@@ -66,7 +66,7 @@
    
     #container_logo{
       display: flex; 
-      width:82%;
+      width:100%;
       flex-direction:row;
       align-items: center; 
       margin-bottom:25px;    
@@ -81,7 +81,7 @@
    
    #reservia{
       height:70px; 
-      width:75%;
+      width:23%;
      
       
    }
@@ -1051,8 +1051,8 @@
       #container_logo{
          display:flex;
          flex-wrap: wrap;
-         margin-left:10px;
          width:60%;
+         margin-left:20px;
       }
       .logo{
          display:flex;
@@ -1069,9 +1069,7 @@
     .header_HA:hover{
       border-top: none;
    }
-   header{
-      margin-left:15px;
-   }
+  
    header nav ul li{
       border-top: none;
       border-bottom: solid 0px #a09f9f;
@@ -1250,7 +1248,7 @@
          flex-direction:column;
          margin-left:0px;
          border-radius:0;
-         padding:0px 11px 0px 14px;
+         padding:0px 15px 0px 15px;
       }
       .titre_populaires{
          margin-top:18px;
@@ -1262,7 +1260,7 @@
 
       .box_populaires{
         
-         width:110%;
+         width:115%;
          height:auto;
          background-color:#F2F2F2;
          
