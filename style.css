@@ -36,6 +36,7 @@
       flex-direction:column;
       margin:0 auto;
       padding-bottom:50px;
+      max-width:1300px;
       
    }
    
@@ -58,14 +59,14 @@
        margin: 0 ;
        padding: 0;
        text-decoration: none;
-       max-width:1300px;
+      
     }
    
 /***********header************/
    
     #container_logo{
       display: flex; 
-      width:96%;
+      width:82%;
       flex-direction:row;
       align-items: center; 
       margin-bottom:25px;    
@@ -80,7 +81,7 @@
    
    #reservia{
       height:70px; 
-      width:30%;
+      width:75%;
      
       
    }
@@ -1006,7 +1007,7 @@
     
 /**footer**/
    footer{
-      width:100%;
+      width:101%;
        display:flex;
        position:relative;
        object-fit: cover;
@@ -1198,7 +1199,7 @@
    #location{
       display:flex;
       flex-wrap:wrap;
-      width:100%;
+      width:104%;
 
    }
  /**hebergement**/
@@ -1249,12 +1250,19 @@
          flex-direction:column;
          margin-left:0px;
          border-radius:0;
+         padding:0px 11px 0px 14px;
+      }
+      .titre_populaires{
+         margin-top:18px;
+      }
+      .block_populaires{
+         width:87%;
       }
      
 
       .box_populaires{
         
-         width:100%;
+         width:110%;
          height:auto;
          background-color:#F2F2F2;
          
@@ -1306,7 +1314,7 @@
 
  /**footer**/   
       footer{
-         width:100%;
+         width:103%;
          display:flex;
          flex-direction:column;
       }
