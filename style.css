@@ -36,7 +36,7 @@
       flex-direction:column;
       margin:0 auto;
       padding-bottom:50px;
-      max-width:1300px;
+      
    }
    
 
@@ -58,6 +58,7 @@
        margin: 0 ;
        padding: 0;
        text-decoration: none;
+       max-width:1300px;
     }
    
 /***********header************/
@@ -1067,7 +1068,9 @@
     .header_HA:hover{
       border-top: none;
    }
-   
+   header{
+      margin-left:15px;
+   }
    header nav ul li{
       border-top: none;
       border-bottom: solid 0px #a09f9f;
