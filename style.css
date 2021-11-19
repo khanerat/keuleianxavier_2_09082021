@@ -864,6 +864,7 @@
       .logements{     
          width:100%;
          font-size: 20px;
+         margin-bottom:15px;
           
       }
 
@@ -891,7 +892,7 @@
         flex-wrap: wrap;
         align-content: space-around;
         margin-bottom: 40px;
-        width:95%;
+        width:97%;
        
         
       
@@ -919,7 +920,7 @@
      #populaires{
         
        order:1; 
-       width:90%;
+       width:92%;
        height: auto;
        margin:0;
       
@@ -1259,21 +1260,28 @@
       .titre_populaires{
          margin-top:18px;
       }
-      .block_populaires{
-         width:87%;
-      }
+      
      
-
       .box_populaires{
-        
-         width:115%;
+         width:100%;
          height:auto;
          background-color:#F2F2F2;
          
       }
+      
       .image_populaires{
          width:40%;
          height:auto;
+      }
+      
+      .child_text{
+         padding-bottom:20px;
+      }
+      .prix_populaires{
+         padding-bottom:25px;
+      }
+      .child2_stars{
+         padding-bottom: 5px;
       }
  /**activites**/
  
