@@ -1069,6 +1069,9 @@
     .header_HA:hover{
       border-top: none;
    }
+   header{
+      margin-left: 0px;
+   }
   
    header nav ul li{
       border-top: none;
@@ -1107,7 +1110,7 @@
       color: #0065FC;
       font-weight: bold;
       position:absolute;
-      margin-left:200px;
+      margin-left:215px;
       margin-bottom:80px;
      
       
@@ -1189,6 +1192,9 @@
       position: absolute;
       top: 7px;
       left: 1px;
+   }
+   .logements{
+      margin-left:10px;
    }
    .info_logo{
       display:flex;
