@@ -84,10 +84,7 @@ nav ul{
  
   
 }
-header nav{
-  display: flex;
-  align-items: center;
-}
+
 nav {
   width: 50%;
   }
@@ -103,7 +100,6 @@ nav {
 #inscription{
   color:#0065FC;
   font-weight: bold;
-  margin-right: 65px;
   text-decoration: none;
 }
 
@@ -123,7 +119,6 @@ header nav ul li:hover {
 .navigation{
     display: flex;
     flex-direction: row;
-    max-width: 400px;
     justify-content: space-around;
 }
 .navigation1{
@@ -748,7 +743,7 @@ p{
      margin-left:auto;
   }
   nav { 
-     display:flex;    
+        
      width: 70%;
      margin-top: 10px;
   }
@@ -1035,19 +1030,9 @@ footer{
 
 }
 
-@media screen and  (max-width:425px) {
-  /*
-  header{
-     margin-left:25px;
-  }
-  */
-  #inscription{
-     margin-left:240px;
-  }
 
-}
 
-@media screen and (min-width:310px) and (max-width:767px) {
+@media screen and (max-width:767px) {
   main{
      width:100%;
      display:flex;
@@ -1059,7 +1044,7 @@ footer{
 
  #reservia{
      
-        width:62%; 
+        width:50%; 
   }
 
   #container_logo{
@@ -1082,7 +1067,9 @@ footer{
   border-top: none;
 }
 
-
+nav{
+   width:100%;
+}
 header nav ul li{
   border-top: none;
   border-bottom: solid 0px #a09f9f;
@@ -1111,7 +1098,7 @@ header li{
 }
 .navigation1{
    display:flex;
-   margin-left:88px;
+   
    
 }
 
@@ -1122,7 +1109,9 @@ header li{
   color: #0065FC;
   font-weight: bold;
   position:absolute;
-  margin-bottom:80px;
+  top:30px;
+  right:10px;
+  
  
   
 }
@@ -1306,6 +1295,8 @@ border-bottom-right-radius: 1rem;
      width:100%;
      display:flex;
      flex-direction: column;
+     padding-left:15px;
+     box-sizing:border-box;
   }
   .activity1, 
   .activity2, 
