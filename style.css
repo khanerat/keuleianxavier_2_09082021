@@ -103,7 +103,7 @@ nav {
 #inscription{
   color:#0065FC;
   font-weight: bold;
-  margin-right: 25px;
+  margin-right: 65px;
   text-decoration: none;
 }
 
@@ -1034,6 +1034,7 @@ footer{
   }
 
 }
+
 @media screen and  (max-width:425px) {
   /*
   header{
@@ -1057,20 +1058,17 @@ footer{
 /**header**/     
 
  #reservia{
-     align-self: flex-start;      
-        height:70px; 
+     
         width:62%; 
   }
 
   #container_logo{
      display:flex;
      flex-wrap: wrap;
-     width:60%;
-     margin-left:20px;
+     
   }
   .logo{
-     display:flex;
-     width:80%;
+     display:flex;   
      margin-left:0;
   }
   .header_HAhebergements{
@@ -1113,12 +1111,14 @@ header li{
 }
 .navigation1{
    display:flex;
-   justify-content: space-between;
+   margin-left:88px;
+   
 }
 
 #inscription{ 
         
   display:flex;
+  flex-wrap: wrap;
   color: #0065FC;
   font-weight: bold;
   position:absolute;
@@ -1336,7 +1336,7 @@ border-bottom-right-radius: 1rem;
 
 /**footer**/   
   footer{
-     width:103%;
+     width:104%;
      display:flex;
      flex-direction:column;
   }
