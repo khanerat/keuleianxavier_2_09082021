@@ -906,7 +906,7 @@ p{
 }
 
 .box_populaires{
-  background-color:#F2F2F2;
+ 
   width: 95%;
   height:180px;  
   margin: 5px;
@@ -1243,11 +1243,16 @@ border-bottom-right-radius: 1rem;
      margin-top:18px;
   }
   
- 
+ .block_populaires{
+    display:flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+    width:100%;
+ }
   .box_populaires{
      width:100%;
-     height:auto;
-     background-color:#F2F2F2;
+     height:180px;
+    
      
   }
   
