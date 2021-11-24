@@ -101,6 +101,7 @@ nav {
   color:#0065FC;
   font-weight: bold;
   text-decoration: none;
+  margin-right:75px;
 }
 
 header nav ul li {
@@ -412,8 +413,8 @@ p{
 }
 
  .child_text h3{
-   font-weight: bold;
-   font-size:20px;
+   font-weight: 900;
+   font-size:14px;
    
 }
 
@@ -457,7 +458,7 @@ p{
  .block_populaires{
    display: flex;
    flex-direction:column;
-   width:100%;  
+    
 }
 
  .box_populaires{
@@ -470,13 +471,13 @@ p{
    cursor: pointer;
    box-sizing: border-box;
    width: 263px;
-   max-height: 300px;
+   height: 145px;
    margin-bottom: 29px;
    box-shadow: 0 0 10px black;   
 }
 
  .image_populaires{
-   width: 30%;
+   width: 35%;
    height: auto;
    object-fit: cover;
    border-top-left-radius: 22px;
@@ -1092,6 +1093,7 @@ header li{
   position:absolute;
   top:30px;
   right:10px;
+  margin-right:0;
     
 }
 
